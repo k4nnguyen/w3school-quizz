@@ -1,0 +1,6292 @@
+[
+  {
+    "id": 1,
+    "topic": "angular",
+    "question": "What is Angular?",
+    "options": [
+      "A JavaScript library for building user interfaces",
+      "A programming language",
+      "A CSS preprocessor",
+      "A framework for building client applications"
+    ],
+    "correct": "A framework for building client applications",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 2,
+    "topic": "angular",
+    "question": "Which function bootstraps a standalone Angular application?",
+    "options": [
+      "bootstrapApplication()",
+      "createApp()",
+      "startApplication()",
+      "bootstrapModule()"
+    ],
+    "correct": "bootstrapApplication()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 3,
+    "topic": "angular",
+    "question": "Which decorator defines a component?",
+    "options": [
+      "@Injectable",
+      "@Pipe",
+      "@Directive",
+      "@Component"
+    ],
+    "correct": "@Component",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 4,
+    "topic": "angular",
+    "question": "How do you mark a component as standalone?",
+    "options": [
+      "standalone: true",
+      "independent: true",
+      "module: false",
+      "root: true"
+    ],
+    "correct": "standalone: true",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 5,
+    "topic": "angular",
+    "question": "Which template syntax shows a value as text?",
+    "options": [
+      "[prop]",
+      "(event)",
+      "{{ value }}",
+      "[(...)]"
+    ],
+    "correct": "{{ value }}",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 6,
+    "topic": "angular",
+    "question": "Which syntax listens to a click event?",
+    "options": [
+      "{click}",
+      "on-click=\"handler()\"",
+      "[click]",
+      "(click)"
+    ],
+    "correct": "(click)",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 7,
+    "topic": "angular",
+    "question": "Which syntax sets a DOM property?",
+    "options": [
+      "{prop}",
+      "(prop)",
+      "prop()",
+      "[prop]"
+    ],
+    "correct": "[prop]",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 8,
+    "topic": "angular",
+    "question": "Which is the two-way binding syntax for forms?",
+    "options": [
+      "[(ngModel)]",
+      "(ngModel)",
+      "[(value)]",
+      "[value] + (input)"
+    ],
+    "correct": "[(ngModel)]",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 9,
+    "topic": "angular",
+    "question": "Which module is required for [(ngModel)]?",
+    "options": [
+      "ReactiveFormsModule",
+      "FormsModule",
+      "CommonModule",
+      "BrowserModule"
+    ],
+    "correct": "FormsModule",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 10,
+    "topic": "angular",
+    "question": "Which modern template syntax iterates over a list?",
+    "options": [
+      "@if",
+      "*ngFor",
+      "@for",
+      "@switch"
+    ],
+    "correct": "@for",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 11,
+    "topic": "angular",
+    "question": "How do you provide a stable identity for items in @for?",
+    "options": [
+      "Use keyBy",
+      "Use hashBy",
+      "Use index as id",
+      "Use track it.id"
+    ],
+    "correct": "Use track it.id",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 12,
+    "topic": "angular",
+    "question": "Which element is used for content projection?",
+    "options": [
+      "<ng-content>",
+      "<ng-container>",
+      "<ng-template>",
+      "<router-outlet>"
+    ],
+    "correct": "<ng-content>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 13,
+    "topic": "angular",
+    "question": "Which decorator marks an input property?",
+    "options": [
+      "@HostBinding",
+      "@Output",
+      "@Input",
+      "@Inject"
+    ],
+    "correct": "@Input",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 14,
+    "topic": "angular",
+    "question": "Which decorator is used to emit events to a parent component?",
+    "options": [
+      "@Output",
+      "@Input",
+      "@Emitter",
+      "@Event"
+    ],
+    "correct": "@Output",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 15,
+    "topic": "angular",
+    "question": "Which class is commonly used with @Output to emit events?",
+    "options": [
+      "Emitter<T>",
+      "Subject<any>",
+      "EventEmitter<T>",
+      "BehaviorSubject<T>"
+    ],
+    "correct": "EventEmitter<T>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 16,
+    "topic": "angular",
+    "question": "Which pipe subscribes to Observables and unsubscribes automatically?",
+    "options": [
+      "async",
+      "uppercase",
+      "date",
+      "json"
+    ],
+    "correct": "async",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 17,
+    "topic": "angular",
+    "question": "When does the async pipe unsubscribe from an Observable?",
+    "options": [
+      "Only on route change",
+      "When you call destroy()",
+      "When the view is destroyed",
+      "Never"
+    ],
+    "correct": "When the view is destroyed",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 18,
+    "topic": "angular",
+    "question": "Which Angular service is used for HTTP requests?",
+    "options": [
+      "HttpModule",
+      "FetchService",
+      "HttpClient",
+      "HttpService"
+    ],
+    "correct": "HttpClient",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 19,
+    "topic": "angular",
+    "question": "In standalone apps, which function enables HttpClient?",
+    "options": [
+      "registerHttp()",
+      "HttpClientModule",
+      "provideHttpClient()",
+      "enableHttp()"
+    ],
+    "correct": "provideHttpClient()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 20,
+    "topic": "angular",
+    "question": "How do you set an attribute when no corresponding property exists?",
+    "options": [
+      "[style.*]",
+      "[class.*]",
+      "[attr.*]",
+      "bind-attr"
+    ],
+    "correct": "[attr.*]",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 21,
+    "topic": "angular",
+    "question": "What is the modern control flow syntax for conditionals in templates?",
+    "options": [
+      "v-if",
+      "*ngIf",
+      "@if",
+      "ng-if"
+    ],
+    "correct": "@if",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 22,
+    "topic": "angular",
+    "question": "Which symbol introduces a local template reference?",
+    "options": [
+      "@var",
+      "&var",
+      "#var",
+      "$var"
+    ],
+    "correct": "#var",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 23,
+    "topic": "angular",
+    "question": "Where does the root component render in index.html by default?",
+    "options": [
+      "<body>",
+      "<root-app>",
+      "<app-root>",
+      "<angular-root>"
+    ],
+    "correct": "<app-root>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 24,
+    "topic": "angular",
+    "question": "Which package exports bootstrapApplication?",
+    "options": [
+      "@angular/router",
+      "@angular/core",
+      "@angular/platform-browser",
+      "@angular/common"
+    ],
+    "correct": "@angular/platform-browser",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 25,
+    "topic": "angular",
+    "question": "To use *ngIf and *ngFor in a standalone component, import:",
+    "options": [
+      "CommonModule",
+      "FormsModule",
+      "RouterModule",
+      "BrowserModule"
+    ],
+    "correct": "CommonModule",
+    "explanation": null,
+    "source": "https://www.w3schools.com/angular/angular_quiz.asp"
+  },
+  {
+    "id": 26,
+    "topic": "bootstrap",
+    "question": "Bootstrap 3 is mobile-first.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 27,
+    "topic": "bootstrap",
+    "question": "Which class provides a responsive fixed width container?",
+    "options": [
+      ".container-fluid",
+      ".container-fixed",
+      ".container"
+    ],
+    "correct": ".container",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 28,
+    "topic": "bootstrap",
+    "question": "Which class provides a full width container, spanning the entire width of the viewport?",
+    "options": [
+      ".container",
+      ".container-fixed",
+      ".container-fluid"
+    ],
+    "correct": ".container-fluid",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 29,
+    "topic": "bootstrap",
+    "question": "The Bootstrap grid system is based on how many columns?",
+    "options": [
+      "12",
+      "6",
+      "3",
+      "9"
+    ],
+    "correct": "12",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 30,
+    "topic": "bootstrap",
+    "question": "Which class adds zebra-stripes to a table?",
+    "options": [
+      ".table-zebra",
+      ".table-bordered",
+      ".even and .odd",
+      ".table-striped"
+    ],
+    "correct": ".table-striped",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 31,
+    "topic": "bootstrap",
+    "question": "Which class shapes an image to a circle?",
+    "options": [
+      ".img-circle",
+      ".img-round",
+      ".img-thumbnail",
+      ".img-rounded"
+    ],
+    "correct": ".img-circle",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 32,
+    "topic": "bootstrap",
+    "question": "Which class is used to create a big box for calling extra attention?",
+    "options": [
+      ".bigbox",
+      ".jumbotron",
+      ".container"
+    ],
+    "correct": ".jumbotron",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 33,
+    "topic": "bootstrap",
+    "question": "Which button class is used to create a large button?",
+    "options": [
+      ".btn-xl",
+      ".btn-lg",
+      ".btn-large",
+      ".btn-l"
+    ],
+    "correct": ".btn-lg",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 34,
+    "topic": "bootstrap",
+    "question": "Which class is used to create a button group?",
+    "options": [
+      ".button-group",
+      ".group-btn",
+      ".btn-group",
+      ".group-button"
+    ],
+    "correct": ".btn-group",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 35,
+    "topic": "bootstrap",
+    "question": "How can you insert a search icon?",
+    "options": [
+      "<span class=\"glyphicon search\"></span>",
+      "<span class=\"glyph glyph-search\"></span>",
+      "<span class=\"glyphicon glyphicon-search\"></span>",
+      "<span class=\"glyphicon-search\"></span>"
+    ],
+    "correct": "<span class=\"glyphicon glyphicon-search\"></span>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 36,
+    "topic": "bootstrap",
+    "question": "Which class is used to create a badge?",
+    "options": [
+      ".label",
+      ".badge",
+      ".tag",
+      ".flag"
+    ],
+    "correct": ".badge",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 37,
+    "topic": "bootstrap",
+    "question": "Which class is used to create a basic pagination?",
+    "options": [
+      ".page",
+      ".pagination",
+      ".navigation",
+      ".pages"
+    ],
+    "correct": ".pagination",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 38,
+    "topic": "bootstrap",
+    "question": "Which class is used to create a basic list group?",
+    "options": [
+      ".list-group",
+      ".group-list",
+      ".grouped-list"
+    ],
+    "correct": ".list-group",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 39,
+    "topic": "bootstrap",
+    "question": "Which class adds a heading to a panel?",
+    "options": [
+      ".panel-heading",
+      ".panel-head",
+      ".panel-footer",
+      ".panel-header"
+    ],
+    "correct": ".panel-heading",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 40,
+    "topic": "bootstrap",
+    "question": "Which class indicates a dropdown menu?",
+    "options": [
+      ".select",
+      ".dropdown-list",
+      ".dropdown"
+    ],
+    "correct": ".dropdown",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 41,
+    "topic": "bootstrap",
+    "question": "A standard navigation tab is created with:",
+    "options": [
+      "<ul class=\"nav nav-tabs\">",
+      "<ul class=\"nav nav-navbar\">",
+      "<ul class=\"navigation-tabs\">",
+      "<ul class=\"nav tabs\">"
+    ],
+    "correct": "<ul class=\"nav nav-tabs\">",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 42,
+    "topic": "bootstrap",
+    "question": "A standard navigation bar is created with:",
+    "options": [
+      "<nav class=\"navbar default-navbar\">",
+      "<nav class=\"nav navbar\">",
+      "<nav class=\"navigationbar navbar-default\">",
+      "<nav class=\"navbar navbar-default\">"
+    ],
+    "correct": "<nav class=\"navbar navbar-default\">",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 43,
+    "topic": "bootstrap",
+    "question": "Which class is used to create a black navigation bar?",
+    "options": [
+      ".navbar-dark",
+      ".navbar-default",
+      ".navbar-inverse",
+      ".navbar-black"
+    ],
+    "correct": ".navbar-inverse",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 44,
+    "topic": "bootstrap",
+    "question": "Which plugin is used to cycle through elements, like a slideshow?",
+    "options": [
+      "Orbit",
+      "Slideshow",
+      "Carousel",
+      "Scrollspy"
+    ],
+    "correct": "Carousel",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 45,
+    "topic": "bootstrap",
+    "question": "Which plugin is used to create a modal window?",
+    "options": [
+      "Window",
+      "Popup",
+      "Modal",
+      "Dialog Box"
+    ],
+    "correct": "Modal",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 46,
+    "topic": "bootstrap",
+    "question": "Which plugin is used to create a tooltip?",
+    "options": [
+      "Popup",
+      "Dialog Box",
+      "Tooltip",
+      "Modal"
+    ],
+    "correct": "Tooltip",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 47,
+    "topic": "bootstrap",
+    "question": "Which contextual class indicates a succesful or positive action?",
+    "options": [
+      ".text-warning",
+      ".text-success",
+      ".text-info",
+      ".text-primary"
+    ],
+    "correct": ".text-success",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 48,
+    "topic": "bootstrap",
+    "question": "Which contextual class indicates a dangerous or potentially negative action?",
+    "options": [
+      ".text-info",
+      ".text-warning",
+      ".text-danger",
+      ".text-primary"
+    ],
+    "correct": ".text-danger",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 49,
+    "topic": "bootstrap",
+    "question": "Which class indicates uppercased text?",
+    "options": [
+      ".text-uppercase",
+      ".text-capitalize",
+      ".ucase",
+      ".uppercase"
+    ],
+    "correct": ".text-uppercase",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 50,
+    "topic": "bootstrap",
+    "question": "The Bootstrap grid system works across multiple devices.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+  },
+  {
+    "id": 51,
+    "topic": "bootstrap4",
+    "question": "The .container class provides a full width container, spanning the entire width of the screen",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "False",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 52,
+    "topic": "bootstrap4",
+    "question": "Which class provides a responsive fixed width container?",
+    "options": [
+      ".container-fixed",
+      ".container-fluid",
+      ".container"
+    ],
+    "correct": ".container",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 53,
+    "topic": "bootstrap4",
+    "question": "Which contextual class is used to create an orange text color?",
+    "options": [
+      ".bg-warning",
+      ".text-warning",
+      ".txt-warning",
+      ".txt-orange"
+    ],
+    "correct": ".text-warning",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 54,
+    "topic": "bootstrap4",
+    "question": "The Bootstrap grid system is based on how many columns?",
+    "options": [
+      "9",
+      "3",
+      "6",
+      "12"
+    ],
+    "correct": "12",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 55,
+    "topic": "bootstrap4",
+    "question": "Which class adds zebra-stripes to a table?",
+    "options": [
+      ".table-bordered",
+      ".table-zebra",
+      ".table-striped",
+      ".even and .odd"
+    ],
+    "correct": ".table-striped",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 56,
+    "topic": "bootstrap4",
+    "question": "Which class shapes an image to a circle?",
+    "options": [
+      ".img-circle",
+      ".img-round",
+      ".img-rounded",
+      ".rounded-circle"
+    ],
+    "correct": ".rounded-circle",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 57,
+    "topic": "bootstrap4",
+    "question": "Which class is used to create a big box for calling extra attention?",
+    "options": [
+      ".container",
+      ".bigbox",
+      ".jumbotron"
+    ],
+    "correct": ".jumbotron",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 58,
+    "topic": "bootstrap4",
+    "question": "Which button class is used to create a large button?",
+    "options": [
+      ".btn-large",
+      ".btn-xl",
+      ".btn-l",
+      ".btn-lg"
+    ],
+    "correct": ".btn-lg",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 59,
+    "topic": "bootstrap4",
+    "question": "Which class is used to create a button group?",
+    "options": [
+      ".btn-group",
+      ".group-btn",
+      ".button-group",
+      ".group-button"
+    ],
+    "correct": ".btn-group",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 60,
+    "topic": "bootstrap4",
+    "question": "Which class is used to create a badge?",
+    "options": [
+      ".badge",
+      ".badge-label",
+      ".label-badge",
+      ".badge-item"
+    ],
+    "correct": ".badge",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 61,
+    "topic": "bootstrap4",
+    "question": "Which class is used to create a loader?",
+    "options": [
+      ".spinner-border",
+      ".loader",
+      ".spinner-loader",
+      ".spinner"
+    ],
+    "correct": ".spinner-border",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 62,
+    "topic": "bootstrap4",
+    "question": "Which class is used to create a basic pagination?",
+    "options": [
+      ".navigation",
+      ".pages",
+      ".page",
+      ".pagination"
+    ],
+    "correct": ".pagination",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 63,
+    "topic": "bootstrap4",
+    "question": "Which class is used to create a basic list group?",
+    "options": [
+      ".list-group",
+      ".grouped-list",
+      ".group-list"
+    ],
+    "correct": ".list-group",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 64,
+    "topic": "bootstrap4",
+    "question": "Which class adds a heading to a card?",
+    "options": [
+      ".card-header",
+      ".card-footer",
+      ".card-heading",
+      ".card-head"
+    ],
+    "correct": ".card-header",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 65,
+    "topic": "bootstrap4",
+    "question": "Which class indicates a dropdown menu?",
+    "options": [
+      ".dropdown-list",
+      ".dropdown",
+      ".select"
+    ],
+    "correct": ".dropdown",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 66,
+    "topic": "bootstrap4",
+    "question": "A standard navigation tab is created with:",
+    "options": [
+      "<ul class=\"nav nav-navbar\">",
+      "<ul class=\"navigation-tabs\">",
+      "<ul class=\"nav tabs\">",
+      "<ul class=\"nav nav-tabs\">"
+    ],
+    "correct": "<ul class=\"nav nav-tabs\">",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 67,
+    "topic": "bootstrap4",
+    "question": "A standard navigation bar is created with:",
+    "options": [
+      "<nav class=\"navbar navbar-default\">",
+      "<nav class=\"navbar navbar-expand-sm\">",
+      "<nav class=\"navigationbar navbar-default\">",
+      "<nav class=\"nav navbar\">"
+    ],
+    "correct": "<nav class=\"navbar navbar-expand-sm\">",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 68,
+    "topic": "bootstrap4",
+    "question": "Which class is used to create a vertical navigation bar?",
+    "options": [
+      ".navbar",
+      ".navbar-inverse",
+      ".navbar-vertical",
+      ".navbar navbar-vertical"
+    ],
+    "correct": ".navbar",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 69,
+    "topic": "bootstrap4",
+    "question": "Which component is used to cycle through elements, like a slideshow?",
+    "options": [
+      "Orbit",
+      "Carousel",
+      "Slideshow",
+      "Scrollspy"
+    ],
+    "correct": "Carousel",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 70,
+    "topic": "bootstrap4",
+    "question": "What classes can be combined to create a custom checkbox?",
+    "options": [
+      "checkbox control",
+      "custom-control custom-checkbox",
+      "custom-check custom-checkbox"
+    ],
+    "correct": "custom-control custom-checkbox",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 71,
+    "topic": "bootstrap4",
+    "question": "Which attribute is used to create a tooltip?",
+    "options": [
+      "data-toggle=\"popup\"",
+      "data-toggle=\"tooltip\"",
+      "data-toggle=\"modal\"",
+      "data-toggle=\"collapse\""
+    ],
+    "correct": "data-toggle=\"tooltip\"",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 72,
+    "topic": "bootstrap4",
+    "question": "Which contextual class indicates a succesful or positive action?",
+    "options": [
+      ".bg-primary",
+      ".bg-success",
+      ".bg-info",
+      ".bg-warning"
+    ],
+    "correct": ".bg-success",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 73,
+    "topic": "bootstrap4",
+    "question": "Which contextual class indicates a dangerous or potentially negative action?",
+    "options": [
+      ".bg-info",
+      ".bg-primary",
+      ".bg-danger",
+      ".bg-warning"
+    ],
+    "correct": ".bg-danger",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 74,
+    "topic": "bootstrap4",
+    "question": "Which class indicates uppercased text?",
+    "options": [
+      ".ucase",
+      ".uppercase",
+      ".text-capitalize",
+      ".text-uppercase"
+    ],
+    "correct": ".text-uppercase",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 75,
+    "topic": "bootstrap4",
+    "question": "The Bootstrap grid system works across multiple devices.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+  },
+  {
+    "id": 76,
+    "topic": "cpp",
+    "question": "What is a correct syntax to output \"Hello World\" in C++?",
+    "options": [
+      "cout << \"Hello World\";",
+      "print (\"Hello World\");",
+      "System.out.println(\"Hello World\");",
+      "Console.WriteLine(\"Hello World\");"
+    ],
+    "correct": "cout << \"Hello World\";",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 77,
+    "topic": "cpp",
+    "question": "C++ is an alias of C#",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "False",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 78,
+    "topic": "cpp",
+    "question": "How do you insert COMMENTS in C++ code?",
+    "options": [
+      "/* This is a comment",
+      "# This is a comment",
+      "// This is a comment"
+    ],
+    "correct": "// This is a comment",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 79,
+    "topic": "cpp",
+    "question": "Which data type is used to create a variable that should store text?",
+    "options": [
+      "string",
+      "String",
+      "Txt",
+      "myString"
+    ],
+    "correct": "string",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 80,
+    "topic": "cpp",
+    "question": "How do you create a variable with the numeric value 5?",
+    "options": [
+      "double x = 5;",
+      "x = 5;",
+      "int x = 5;",
+      "num x = 5"
+    ],
+    "correct": "int x = 5;",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 81,
+    "topic": "cpp",
+    "question": "How do you create a variable with the floating number 2.8?",
+    "options": [
+      "x = 2.8;",
+      "int x = 2.8;",
+      "byte x = 2.8",
+      "double x = 2.8;"
+    ],
+    "correct": "double x = 2.8;",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 82,
+    "topic": "cpp",
+    "question": "Which method can be used to find the length of a string?",
+    "options": [
+      "getSize()",
+      "len()",
+      "getLength()",
+      "length()"
+    ],
+    "correct": "length()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 83,
+    "topic": "cpp",
+    "question": "Which operator is used to add together two values?",
+    "options": [
+      "The + sign",
+      "The & sign",
+      "The * sign"
+    ],
+    "correct": "The + sign",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 84,
+    "topic": "cpp",
+    "question": "The value of a string variable can be surrounded by single quotes.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "False",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 85,
+    "topic": "cpp",
+    "question": "Which header file lets us work with input and output objects?",
+    "options": [
+      "#include <iosstring>",
+      "#include <iostream>",
+      "#include <inputstr>",
+      "#include <stream>"
+    ],
+    "correct": "#include <iostream>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 86,
+    "topic": "cpp",
+    "question": "Which operator can be used to compare two values?",
+    "options": [
+      "==",
+      "<>",
+      "=",
+      "><"
+    ],
+    "correct": "==",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 87,
+    "topic": "cpp",
+    "question": "To declare an array in C++, define the variable type with:",
+    "options": [
+      "{}",
+      "[]",
+      "()"
+    ],
+    "correct": "[]",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 88,
+    "topic": "cpp",
+    "question": "Array indexes start with:",
+    "options": [
+      "0",
+      "1"
+    ],
+    "correct": "0",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 89,
+    "topic": "cpp",
+    "question": "How do you create a function in C++?",
+    "options": [
+      "functionName()",
+      "(functionName)",
+      "functionName.",
+      "functionName[]"
+    ],
+    "correct": "functionName()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 90,
+    "topic": "cpp",
+    "question": "How do you call a function in C++?",
+    "options": [
+      "functionName();",
+      "functionName[];",
+      "(functionName);",
+      "functionName;"
+    ],
+    "correct": "functionName();",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 91,
+    "topic": "cpp",
+    "question": "Which keyword is used to create a class in C++?",
+    "options": [
+      "class",
+      "class()",
+      "MyClass",
+      "className"
+    ],
+    "correct": "class",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 92,
+    "topic": "cpp",
+    "question": "What is the correct way to create an object called myObj of MyClass?",
+    "options": [
+      "class myObj = new MyClass();",
+      "new myObj = MyClass();",
+      "MyClass myObj;",
+      "class MyClass = new myObj();"
+    ],
+    "correct": "MyClass myObj;",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 93,
+    "topic": "cpp",
+    "question": "In C++, it is possible to inherit attributes and methods from one class to another.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 94,
+    "topic": "cpp",
+    "question": "Which method can be used to find the highest value of x and y?",
+    "options": [
+      "largest(x,y)",
+      "maxNum(x,y)",
+      "maximum(x,y)",
+      "max(x,y)"
+    ],
+    "correct": "max(x,y)",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 95,
+    "topic": "cpp",
+    "question": "Which operator is used to multiply numbers?",
+    "options": [
+      "*",
+      "x",
+      "%",
+      "#"
+    ],
+    "correct": "*",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 96,
+    "topic": "cpp",
+    "question": "How do you create a reference variable of an existing variable?",
+    "options": [
+      "With the * operator",
+      "With the ref word",
+      "With the REF word",
+      "With the & operator"
+    ],
+    "correct": "With the & operator",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 97,
+    "topic": "cpp",
+    "question": "How do you start writing an if statement in C++?",
+    "options": [
+      "if (x > y)",
+      "if x > y then:",
+      "if x > y:"
+    ],
+    "correct": "if (x > y)",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 98,
+    "topic": "cpp",
+    "question": "How do you start writing a while loop in C++?",
+    "options": [
+      "x > y while {",
+      "while x > y {",
+      "while x > y:",
+      "while (x > y)"
+    ],
+    "correct": "while (x > y)",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 99,
+    "topic": "cpp",
+    "question": "Which keyword is used to return a value inside a method?",
+    "options": [
+      "break",
+      "void",
+      "return",
+      "get"
+    ],
+    "correct": "return",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 100,
+    "topic": "cpp",
+    "question": "Which statement is used to stop a loop?",
+    "options": [
+      "exit",
+      "break",
+      "stop",
+      "return"
+    ],
+    "correct": "break",
+    "explanation": null,
+    "source": "https://www.w3schools.com/cpp/cpp_quiz.asp"
+  },
+  {
+    "id": 101,
+    "topic": "css",
+    "question": "What does CSS stand for?",
+    "options": [
+      "Cascading Style Sheets",
+      "Creative Style Sheets",
+      "Colorful Style Sheets",
+      "Computer Style Sheets"
+    ],
+    "correct": "Cascading Style Sheets",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 102,
+    "topic": "css",
+    "question": "What is the correct HTML for referring to an external style sheet?",
+    "options": [
+      "<stylesheet>mystyle.css</stylesheet>",
+      "<style src=\"mystyle.css\">",
+      "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">"
+    ],
+    "correct": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 103,
+    "topic": "css",
+    "question": "Where in an HTML document is the correct place to refer to an external style sheet?",
+    "options": [
+      "In the <body> section",
+      "At the end of the document",
+      "In the <head> section"
+    ],
+    "correct": "In the <head> section",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 104,
+    "topic": "css",
+    "question": "Which HTML tag is used to define an internal style sheet?",
+    "options": [
+      "<script>",
+      "<css>",
+      "<style>"
+    ],
+    "correct": "<style>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 105,
+    "topic": "css",
+    "question": "Which HTML attribute is used to define inline styles?",
+    "options": [
+      "font",
+      "styles",
+      "style",
+      "class"
+    ],
+    "correct": "style",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 106,
+    "topic": "css",
+    "question": "Which is the correct CSS syntax?",
+    "options": [
+      "body {color: black;}",
+      "{body:color=black;}",
+      "{body;color:black;}",
+      "body:color=black;"
+    ],
+    "correct": "body {color: black;}",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 107,
+    "topic": "css",
+    "question": "How do you insert a comment in a CSS file?",
+    "options": [
+      "/* this is a comment */",
+      "// this is a comment //",
+      "// this is a comment",
+      "' this is a comment"
+    ],
+    "correct": "/* this is a comment */",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 108,
+    "topic": "css",
+    "question": "Which property is used to change the background color?",
+    "options": [
+      "background-color",
+      "color",
+      "bgcolor"
+    ],
+    "correct": "background-color",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 109,
+    "topic": "css",
+    "question": "How do you add a background color for all <h1> elements?",
+    "options": [
+      "h1.all {background-color:#FFFFFF;}",
+      "h1 {background-color:#FFFFFF;}",
+      "all.h1 {background-color:#FFFFFF;}"
+    ],
+    "correct": "h1 {background-color:#FFFFFF;}",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 110,
+    "topic": "css",
+    "question": "Which CSS property is used to change the text color of an element?",
+    "options": [
+      "fgcolor",
+      "color",
+      "text-color"
+    ],
+    "correct": "color",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 111,
+    "topic": "css",
+    "question": "Which CSS property controls the text size?",
+    "options": [
+      "text-style",
+      "text-size",
+      "font-style",
+      "font-size"
+    ],
+    "correct": "font-size",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 112,
+    "topic": "css",
+    "question": "What is the correct CSS syntax for making all the <p> elements bold?",
+    "options": [
+      "p {text-size:bold;}",
+      "<p style=\"text-size:bold;\">",
+      "p {font-weight:bold;}",
+      "<p style=\"font-size:bold;\">"
+    ],
+    "correct": "p {font-weight:bold;}",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 113,
+    "topic": "css",
+    "question": "How do you display hyperlinks without an underline?",
+    "options": [
+      "a {text-decoration:none;}",
+      "a {decoration:no-underline;}",
+      "a {underline:none;}",
+      "a {text-decoration:no-underline;}"
+    ],
+    "correct": "a {text-decoration:none;}",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 114,
+    "topic": "css",
+    "question": "How do you make each word in a text start with a capital letter?",
+    "options": [
+      "You can't do that with CSS",
+      "text-transform:capitalize",
+      "text-style:capitalize",
+      "transform:capitalize"
+    ],
+    "correct": "text-transform:capitalize",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 115,
+    "topic": "css",
+    "question": "Which property is used to change the font of an element?",
+    "options": [
+      "font-family",
+      "font-style",
+      "font-weight"
+    ],
+    "correct": "font-family",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 116,
+    "topic": "css",
+    "question": "How do you make the text bold?",
+    "options": [
+      "font-weight:bold;",
+      "font:bold;",
+      "style:bold;"
+    ],
+    "correct": "font-weight:bold;",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 117,
+    "topic": "css",
+    "question": "How do you display a border like this:The top border = 10 pixelsThe bottom border = 5 pixelsThe left border = 20 pixelsThe right border = 1pixel?",
+    "options": [
+      "border-width:10px 20px 5px 1px;",
+      "border-width:10px 1px 5px 20px;",
+      "border-width:5px 20px 10px 1px;",
+      "border-width:10px 5px 20px 1px;"
+    ],
+    "correct": "border-width:10px 1px 5px 20px;",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 118,
+    "topic": "css",
+    "question": "Which property is used to change the left margin of an element?",
+    "options": [
+      "indent",
+      "margin-left",
+      "padding-left"
+    ],
+    "correct": "margin-left",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 119,
+    "topic": "css",
+    "question": "When using the padding property; are you allowed to use negative values?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correct": "No",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 120,
+    "topic": "css",
+    "question": "How do you make a list that lists its items with squares?",
+    "options": [
+      "list-type: square;",
+      "list: square;",
+      "list-style-type: square;"
+    ],
+    "correct": "list-style-type: square;",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 121,
+    "topic": "css",
+    "question": "How do you select an element with id 'demo'?",
+    "options": [
+      "demo",
+      "*demo",
+      "#demo",
+      ".demo"
+    ],
+    "correct": "#demo",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 122,
+    "topic": "css",
+    "question": "How do you select elements with class name 'test'?",
+    "options": [
+      "test",
+      "*test",
+      "#test",
+      ".test"
+    ],
+    "correct": ".test",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 123,
+    "topic": "css",
+    "question": "How do you select all p elements inside a div element?",
+    "options": [
+      "div.p",
+      "div p",
+      "div + p"
+    ],
+    "correct": "div p",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 124,
+    "topic": "css",
+    "question": "How do you group selectors?",
+    "options": [
+      "Separate each selector with a comma",
+      "Separate each selector with a space",
+      "Separate each selector with a plus sign"
+    ],
+    "correct": "Separate each selector with a comma",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 125,
+    "topic": "css",
+    "question": "What is the default value of the position property?",
+    "options": [
+      "fixed",
+      "relative",
+      "absolute",
+      "static"
+    ],
+    "correct": "static",
+    "explanation": null,
+    "source": "https://www.w3schools.com/css/css_quiz.asp"
+  },
+  {
+    "id": 126,
+    "topic": "git",
+    "question": "What is Git?",
+    "options": [
+      "A nickname for GitHub.",
+      "A remote repository platform.",
+      "A version control system.",
+      "A programming language."
+    ],
+    "correct": "A version control system.",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 127,
+    "topic": "git",
+    "question": "Git is the same as GitHub.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "False",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 128,
+    "topic": "git",
+    "question": "What is the command to get the installed version of Git?",
+    "options": [
+      "git help version",
+      "gitVersion",
+      "git --version",
+      "getGitVersion"
+    ],
+    "correct": "git --version",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 129,
+    "topic": "git",
+    "question": "Which option should you use to set the default user name for every repository on your computer?",
+    "options": [
+      "--global",
+      "--A",
+      "--all",
+      "No need to specify, that is the default."
+    ],
+    "correct": "--global",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 130,
+    "topic": "git",
+    "question": "What is the command to set the user email for the current repository?",
+    "options": [
+      "git email.user",
+      "git config user.email",
+      "git config email"
+    ],
+    "correct": "git config user.email",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 131,
+    "topic": "git",
+    "question": "What is the command to add all files and changes of the current folder to the staging environment of the Git repository?",
+    "options": [
+      "git add",
+      "git add --all",
+      "git add --files"
+    ],
+    "correct": "git add --all",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 132,
+    "topic": "git",
+    "question": "What is the command to get the current status of the Git repository?",
+    "options": [
+      "git status",
+      "git getStatus",
+      "--status",
+      "git config --status"
+    ],
+    "correct": "git status",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 133,
+    "topic": "git",
+    "question": "What is the command to initialize Git on the current repository?",
+    "options": [
+      "git init",
+      "initialize git",
+      "git start",
+      "start git"
+    ],
+    "correct": "git init",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 134,
+    "topic": "git",
+    "question": "Git automatically adds new files to the repository and starts tracking them.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "False",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 135,
+    "topic": "git",
+    "question": "Git commit history is automatically deleted:",
+    "options": [
+      "Commit history is never automatically deleted.",
+      "Every month.",
+      "Every 2 weeks.",
+      "Every year."
+    ],
+    "correct": "Commit history is never automatically deleted.",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 136,
+    "topic": "git",
+    "question": "What is the command to commit the staged changes for the Git repository?",
+    "options": [
+      "git snapshot",
+      "git commit",
+      "git com",
+      "git save"
+    ],
+    "correct": "git commit",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 137,
+    "topic": "git",
+    "question": "What is the command to commit with the message \"New email\":",
+    "options": [
+      "git commit -log \"New email\"",
+      "git commit -mess \"New email\"",
+      "git commit -m \"New email\"",
+      "git commit message \"New email\""
+    ],
+    "correct": "git commit -m \"New email\"",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 138,
+    "topic": "git",
+    "question": "What is the command to view the history of commits for the repository?",
+    "options": [
+      "git commits",
+      "git history",
+      "git log",
+      "git --full-log"
+    ],
+    "correct": "git log",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 139,
+    "topic": "git",
+    "question": "What is the command to see the available options for the commit command?",
+    "options": [
+      "gitHelp commit",
+      "git commit readme",
+      "git commitHelp",
+      "git commit -help"
+    ],
+    "correct": "git commit -help",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 140,
+    "topic": "git",
+    "question": "In Git, a branch is:",
+    "options": [
+      "Nothing, it is a nonsense word.",
+      "A separate version of the main repository.",
+      "A secret part of Git config.",
+      "A small wooden stick you can use to type commands."
+    ],
+    "correct": "A separate version of the main repository.",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 141,
+    "topic": "git",
+    "question": "What is the command to create a new branch named \"new-email\"?",
+    "options": [
+      "git branch new-email",
+      "git newBranch \"new-email\"",
+      "git add branch \"new-email\"",
+      "git branch new \"new-email\""
+    ],
+    "correct": "git branch new-email",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 142,
+    "topic": "git",
+    "question": "What is the command to move to the branch named \"new-email\"?",
+    "options": [
+      "git checkout branch new-email",
+      "git branch new-email",
+      "git checkout new-email",
+      "git branch -move new-email"
+    ],
+    "correct": "git checkout new-email",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 143,
+    "topic": "git",
+    "question": "What is the option, when moving to a branch, to create the branch it if it does not exist?",
+    "options": [
+      "-newbranch",
+      "-new",
+      "-all",
+      "-b"
+    ],
+    "correct": "-b",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 144,
+    "topic": "git",
+    "question": "What is the command to merge the current branch with the branch \"new-email\"?",
+    "options": [
+      "git add new-email",
+      "git commit -merge new-email",
+      "git merge new-email"
+    ],
+    "correct": "git merge new-email",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 145,
+    "topic": "git",
+    "question": "What is the command to delete the branch \"new-email\"",
+    "options": [
+      "git delete new-email",
+      "git delete branch new-email",
+      "git branch -d new-email",
+      "git gone new-email"
+    ],
+    "correct": "git branch -d new-email",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 146,
+    "topic": "git",
+    "question": "What is the command to add the remote repository \"https://abc.xyz/d/e.git\" as \"origin\"?",
+    "options": [
+      "git remote add origin https://abc.xyz/d/e.git",
+      "git origin=https://abc.xyz/d/e.git",
+      "git remote https://abc.xyz/d/e.git",
+      "git add origin https://abc.xyz/d/e.git"
+    ],
+    "correct": "git remote add origin https://abc.xyz/d/e.git",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 147,
+    "topic": "git",
+    "question": "What is the command to push the current repository to the remote origin?",
+    "options": [
+      "git push origin",
+      "git remote commit",
+      "git remote push",
+      "git merge remote"
+    ],
+    "correct": "git push origin",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 148,
+    "topic": "git",
+    "question": "What is the command to get all the change history of the remote repository \"origin\"?",
+    "options": [
+      "git status remote origin",
+      "git get log origin",
+      "git fetch origin",
+      "git origin help"
+    ],
+    "correct": "git fetch origin",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 149,
+    "topic": "git",
+    "question": "What is the command to show the differences between the current branch and the branch \"new-email\"?",
+    "options": [
+      "git diff new-email",
+      "git log new-email",
+      "git status new-email",
+      "git changes new-email"
+    ],
+    "correct": "git diff new-email",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 150,
+    "topic": "git",
+    "question": "Git Pull is a combination of:",
+    "options": [
+      "fetch and merge",
+      "branch and checkout",
+      "add and commit"
+    ],
+    "correct": "fetch and merge",
+    "explanation": null,
+    "source": "https://www.w3schools.com/git/git_quiz.asp"
+  },
+  {
+    "id": 151,
+    "topic": "html",
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyperlinks and Text Markup Language"
+    ],
+    "correct": "Hyper Text Markup Language",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 152,
+    "topic": "html",
+    "question": "Who is making the Web standards?",
+    "options": [
+      "The World Wide Web Consortium",
+      "Mozilla",
+      "Google",
+      "Microsoft"
+    ],
+    "correct": "The World Wide Web Consortium",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 153,
+    "topic": "html",
+    "question": "Choose the correct HTML element for the largest heading:",
+    "options": [
+      "<heading>",
+      "<head>",
+      "<h6>",
+      "<h1>"
+    ],
+    "correct": "<h1>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 154,
+    "topic": "html",
+    "question": "What is the correct HTML element for inserting a line break?",
+    "options": [
+      "<break>",
+      "<br>",
+      "<lb>"
+    ],
+    "correct": "<br>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 155,
+    "topic": "html",
+    "question": "What is the correct HTML for adding a background color?",
+    "options": [
+      "<body style=\"background-color:yellow;\">",
+      "<body bg=\"yellow\">",
+      "<background>yellow</background>"
+    ],
+    "correct": "<body style=\"background-color:yellow;\">",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 156,
+    "topic": "html",
+    "question": "Choose the correct HTML element to define important text",
+    "options": [
+      "<i>",
+      "<b>",
+      "<strong>",
+      "<important>"
+    ],
+    "correct": "<strong>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 157,
+    "topic": "html",
+    "question": "Choose the correct HTML element to define emphasized text",
+    "options": [
+      "<i>",
+      "<em>",
+      "<italic>"
+    ],
+    "correct": "<em>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 158,
+    "topic": "html",
+    "question": "What is the correct HTML for creating a hyperlink?",
+    "options": [
+      "<a href=\"http://www.w3schools.com\">W3Schools</a>",
+      "<a>http://www.w3schools.com</a>",
+      "<a url=\"http://www.w3schools.com\">W3Schools.com</a>",
+      "<a name=\"http://www.w3schools.com\">W3Schools.com</a>"
+    ],
+    "correct": "<a href=\"http://www.w3schools.com\">W3Schools</a>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 159,
+    "topic": "html",
+    "question": "Which character is used to indicate an end tag?",
+    "options": [
+      "^",
+      "/",
+      "*",
+      "<"
+    ],
+    "correct": "/",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 160,
+    "topic": "html",
+    "question": "How can you open a link in a new tab/browser window?",
+    "options": [
+      "<a href=\"url\" new>",
+      "<a href=\"url\" target=\"_blank\">",
+      "<a href=\"url\" target=\"new\">"
+    ],
+    "correct": "<a href=\"url\" target=\"_blank\">",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 161,
+    "topic": "html",
+    "question": "Which of these elements are all <table> elements?",
+    "options": [
+      "<table><head><tfoot>",
+      "<table><tr><tt>",
+      "<thead><body><tr>",
+      "<table><tr><td>"
+    ],
+    "correct": "<table><tr><td>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 162,
+    "topic": "html",
+    "question": "Inline elements are normally displayed without starting a new line.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 163,
+    "topic": "html",
+    "question": "How can you make a numbered list?",
+    "options": [
+      "<list>",
+      "<ol>",
+      "<ul>",
+      "<dl>"
+    ],
+    "correct": "<ol>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 164,
+    "topic": "html",
+    "question": "How can you make a bulleted list?",
+    "options": [
+      "<list>",
+      "<dl>",
+      "<ul>",
+      "<ol>"
+    ],
+    "correct": "<ul>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 165,
+    "topic": "html",
+    "question": "What is the correct HTML for making a checkbox?",
+    "options": [
+      "<input type=\"check\">",
+      "<checkbox>",
+      "<input type=\"checkbox\">",
+      "<check>"
+    ],
+    "correct": "<input type=\"checkbox\">",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 166,
+    "topic": "html",
+    "question": "What is the correct HTML for making a text input field?",
+    "options": [
+      "<textinput type=\"text\">",
+      "<input type=\"text\">",
+      "<textfield>",
+      "<input type=\"textfield\">"
+    ],
+    "correct": "<input type=\"text\">",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 167,
+    "topic": "html",
+    "question": "What is the correct HTML for making a drop-down list?",
+    "options": [
+      "<input type=\"dropdown\">",
+      "<select>",
+      "<input type=\"list\">",
+      "<list>"
+    ],
+    "correct": "<select>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 168,
+    "topic": "html",
+    "question": "What is the correct HTML for making a text area?",
+    "options": [
+      "<input type=\"textbox\">",
+      "<textarea>",
+      "<input type=\"textarea\">"
+    ],
+    "correct": "<textarea>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 169,
+    "topic": "html",
+    "question": "What is the correct HTML for inserting an image?",
+    "options": [
+      "<img href=\"image.gif\" alt=\"MyImage\">",
+      "<image src=\"image.gif\" alt=\"MyImage\">",
+      "<img src=\"image.gif\" alt=\"MyImage\">",
+      "<img alt=\"MyImage\">image.gif</img>"
+    ],
+    "correct": "<img src=\"image.gif\" alt=\"MyImage\">",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 170,
+    "topic": "html",
+    "question": "What is the correct HTML for inserting a background image?",
+    "options": [
+      "<background img=\"background.gif\">",
+      "<body style=\"background-image:url(background.gif)\">",
+      "<body bg=\"background.gif\">"
+    ],
+    "correct": "<body style=\"background-image:url(background.gif)\">",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 171,
+    "topic": "html",
+    "question": "An <iframe> is used to display a web page within a web page.",
+    "options": [
+      "True",
+      "False",
+      "There is no such thing as an <iframe>"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 172,
+    "topic": "html",
+    "question": "HTML comments start with <!-- and end with -->",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 173,
+    "topic": "html",
+    "question": "Block elements are normally displayed without starting a new line.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "False",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 174,
+    "topic": "html",
+    "question": "Which HTML element defines the title of a document?",
+    "options": [
+      "<title>",
+      "<head>",
+      "<meta>"
+    ],
+    "correct": "<title>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 175,
+    "topic": "html",
+    "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
+    "options": [
+      "alt",
+      "title",
+      "src",
+      "longdesc"
+    ],
+    "correct": "alt",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 176,
+    "topic": "html",
+    "question": "Which doctype is correct for HTML5?",
+    "options": [
+      "<!DOCTYPE html>",
+      "<!DOCTYPE HTML5>",
+      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 5.0//EN\" \"http://www.w3.org/TR/html5/strict.dtd\">"
+    ],
+    "correct": "<!DOCTYPE html>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 177,
+    "topic": "html",
+    "question": "Which HTML element is used to specify a footer for a document or section?",
+    "options": [
+      "<section>",
+      "<footer>",
+      "<bottom>"
+    ],
+    "correct": "<footer>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 178,
+    "topic": "html",
+    "question": "In HTML, you can embed SVG elements directly into an HTML page.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 179,
+    "topic": "html",
+    "question": "What is the correct HTML element for playing video files?",
+    "options": [
+      "<video>",
+      "<media>",
+      "<movie>"
+    ],
+    "correct": "<video>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 180,
+    "topic": "html",
+    "question": "What is the correct HTML element for playing audio files?",
+    "options": [
+      "<mp3>",
+      "<sound>",
+      "<audio>"
+    ],
+    "correct": "<audio>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 181,
+    "topic": "html",
+    "question": "The HTML global attribute, \"contenteditable\" is used to:",
+    "options": [
+      "Specifies a context menu for an element. The menu appears when a user right-clicks on the element",
+      "Specify whether the content of an element should be editable or not",
+      "Update content from the server",
+      "Return the position of the first found occurrence of content inside a string"
+    ],
+    "correct": "Specify whether the content of an element should be editable or not",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 182,
+    "topic": "html",
+    "question": "In HTML, onblur and onfocus are:",
+    "options": [
+      "Event attributes",
+      "Style attributes",
+      "HTML elements"
+    ],
+    "correct": "Event attributes",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 183,
+    "topic": "html",
+    "question": "Graphics defined by SVG is in which format?",
+    "options": [
+      "HTML",
+      "XML",
+      "CSS"
+    ],
+    "correct": "XML",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 184,
+    "topic": "html",
+    "question": "The HTML <canvas> element is used to:",
+    "options": [
+      "create draggable elements",
+      "draw graphics",
+      "display database records",
+      "manipulate data in MySQL"
+    ],
+    "correct": "draw graphics",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 185,
+    "topic": "html",
+    "question": "In HTML, which attribute is used to specify that an input field must be filled out?",
+    "options": [
+      "validate",
+      "required",
+      "placeholder",
+      "formvalidate"
+    ],
+    "correct": "required",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 186,
+    "topic": "html",
+    "question": "Which input type defines a slider control?",
+    "options": [
+      "controls",
+      "slider",
+      "range",
+      "search"
+    ],
+    "correct": "range",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 187,
+    "topic": "html",
+    "question": "Which HTML element is used to display a scalar measurement within a range?",
+    "options": [
+      "<measure>",
+      "<range>",
+      "<meter>",
+      "<gauge>"
+    ],
+    "correct": "<meter>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 188,
+    "topic": "html",
+    "question": "Which HTML element defines navigation links?",
+    "options": [
+      "<navigate>",
+      "<navigation>",
+      "<nav>"
+    ],
+    "correct": "<nav>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 189,
+    "topic": "html",
+    "question": "In HTML, what does the <aside> element define?",
+    "options": [
+      "The ASCII character-set; to send information between computers on the Internet",
+      "Content aside from the page content",
+      "A navigation list to be shown at the left side of the page"
+    ],
+    "correct": "Content aside from the page content",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 190,
+    "topic": "html",
+    "question": "Which HTML element is used to specify a header for a document or section?",
+    "options": [
+      "<section>",
+      "<head>",
+      "<header>",
+      "<top>"
+    ],
+    "correct": "<header>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/html/html_quiz.asp"
+  },
+  {
+    "id": 191,
+    "topic": "java",
+    "question": "What is a correct syntax to output \"Hello World\" in Java?",
+    "options": [
+      "print (\"Hello World\");",
+      "Console.WriteLine(\"Hello World\");",
+      "System.out.println(\"Hello World\");",
+      "echo(\"Hello World\");"
+    ],
+    "correct": "System.out.println(\"Hello World\");",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 192,
+    "topic": "java",
+    "question": "Java is short for \"JavaScript\".",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "False",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 193,
+    "topic": "java",
+    "question": "How do you insert COMMENTS in Java code?",
+    "options": [
+      "// This is a comment",
+      "# This is a comment",
+      "/* This is a comment"
+    ],
+    "correct": "// This is a comment",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 194,
+    "topic": "java",
+    "question": "Which data type is used to create a variable that should store text?",
+    "options": [
+      "myString",
+      "Txt",
+      "String",
+      "string"
+    ],
+    "correct": "String",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 195,
+    "topic": "java",
+    "question": "How do you create a variable with the numeric value 5?",
+    "options": [
+      "float x = 5;",
+      "num x = 5",
+      "int x = 5;",
+      "x = 5;"
+    ],
+    "correct": "int x = 5;",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 196,
+    "topic": "java",
+    "question": "How do you create a variable with the floating number 2.8?",
+    "options": [
+      "byte x = 2.8f",
+      "int x = 2.8f;",
+      "x = 2.8f;",
+      "float x = 2.8f;"
+    ],
+    "correct": "float x = 2.8f;",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 197,
+    "topic": "java",
+    "question": "Which method can be used to find the length of a string?",
+    "options": [
+      "length()",
+      "len()",
+      "getLength()",
+      "getSize()"
+    ],
+    "correct": "length()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 198,
+    "topic": "java",
+    "question": "Which operator is used to add together two values?",
+    "options": [
+      "The * sign",
+      "The + sign",
+      "The & sign"
+    ],
+    "correct": "The + sign",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 199,
+    "topic": "java",
+    "question": "The value of a string variable can be surrounded by single quotes.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "False",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 200,
+    "topic": "java",
+    "question": "Which method can be used to return a string in upper case letters?",
+    "options": [
+      "tuc()",
+      "touppercase()",
+      "upperCase()",
+      "toUpperCase()"
+    ],
+    "correct": "toUpperCase()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 201,
+    "topic": "java",
+    "question": "Which operator can be used to compare two values?",
+    "options": [
+      "><",
+      "<>",
+      "==",
+      "="
+    ],
+    "correct": "==",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 202,
+    "topic": "java",
+    "question": "To declare an array in Java, define the variable type with:",
+    "options": [
+      "[]",
+      "{}",
+      "()"
+    ],
+    "correct": "[]",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 203,
+    "topic": "java",
+    "question": "Array indexes start with:",
+    "options": [
+      "0",
+      "1"
+    ],
+    "correct": "0",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 204,
+    "topic": "java",
+    "question": "How do you create a method in Java?",
+    "options": [
+      "methodName.",
+      "methodName[]",
+      "(methodName)",
+      "methodName()"
+    ],
+    "correct": "methodName()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 205,
+    "topic": "java",
+    "question": "How do you call a method in Java?",
+    "options": [
+      "(methodName);",
+      "methodName[];",
+      "methodName;",
+      "methodName();"
+    ],
+    "correct": "methodName();",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 206,
+    "topic": "java",
+    "question": "Which keyword is used to create a class in Java?",
+    "options": [
+      "MyClass",
+      "class()",
+      "className",
+      "class"
+    ],
+    "correct": "class",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 207,
+    "topic": "java",
+    "question": "What is the correct way to create an object called myObj of MyClass?",
+    "options": [
+      "MyClass myObj = new MyClass();",
+      "new myObj = MyClass();",
+      "class MyClass = new myObj();",
+      "class myObj = new MyClass();"
+    ],
+    "correct": "MyClass myObj = new MyClass();",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 208,
+    "topic": "java",
+    "question": "In Java, it is possible to inherit attributes and methods from one class to another.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 209,
+    "topic": "java",
+    "question": "Which method can be used to find the highest value of x and y?",
+    "options": [
+      "Math.maxNum(x,y)",
+      "Math.max(x,y)",
+      "Math.maximum(x,y)",
+      "Math.largest(x,y)"
+    ],
+    "correct": "Math.max(x,y)",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 210,
+    "topic": "java",
+    "question": "Which operator is used to multiply numbers?",
+    "options": [
+      "*",
+      "x",
+      "%",
+      "#"
+    ],
+    "correct": "*",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 211,
+    "topic": "java",
+    "question": "Which keyword is used to import a package from the Java API library?",
+    "options": [
+      "import",
+      "package",
+      "getlib",
+      "lib"
+    ],
+    "correct": "import",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 212,
+    "topic": "java",
+    "question": "How do you start writing an if statement in Java?",
+    "options": [
+      "if x > y then:",
+      "if x > y:",
+      "if (x > y)"
+    ],
+    "correct": "if (x > y)",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 213,
+    "topic": "java",
+    "question": "How do you start writing a while loop in Java?",
+    "options": [
+      "while x > y {",
+      "while (x > y)",
+      "while x > y:",
+      "x > y while {"
+    ],
+    "correct": "while (x > y)",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 214,
+    "topic": "java",
+    "question": "Which keyword is used to return a value inside a method?",
+    "options": [
+      "void",
+      "get",
+      "return",
+      "break"
+    ],
+    "correct": "return",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 215,
+    "topic": "java",
+    "question": "Which statement is used to stop a loop?",
+    "options": [
+      "stop",
+      "return",
+      "exit",
+      "break"
+    ],
+    "correct": "break",
+    "explanation": null,
+    "source": "https://www.w3schools.com/java/java_quiz.asp"
+  },
+  {
+    "id": 216,
+    "topic": "jquery",
+    "question": "Which of the following is correct?",
+    "options": [
+      "jQuery is a JavaScript Library",
+      "jQuery is a JSON Library"
+    ],
+    "correct": "jQuery is a JavaScript Library",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 217,
+    "topic": "jquery",
+    "question": "jQuery uses CSS selectors to select elements?",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 218,
+    "topic": "jquery",
+    "question": "Which sign does jQuery use as a shortcut for jQuery?",
+    "options": [
+      "the % sign",
+      "the ? Sign",
+      "the $ sign"
+    ],
+    "correct": "the $ sign",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 219,
+    "topic": "jquery",
+    "question": "Look at the following selector: $(\"div\"). What does it select?",
+    "options": [
+      "All div elements",
+      "The first div element"
+    ],
+    "correct": "All div elements",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 220,
+    "topic": "jquery",
+    "question": "Is jQuery a library for client scripting or server scripting?",
+    "options": [
+      "Server scripting",
+      "Client scripting"
+    ],
+    "correct": "Client scripting",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 221,
+    "topic": "jquery",
+    "question": "Is it possible to use jQuery together with AJAX?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correct": "Yes",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 222,
+    "topic": "jquery",
+    "question": "The jQuery html() method works for both HTML and XML documents",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "False",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 223,
+    "topic": "jquery",
+    "question": "What is the correct jQuery code to set the background color of all p elements to red?",
+    "options": [
+      "$(\"p\").manipulate(\"background-color\",\"red\");",
+      "$(\"p\").style(\"background-color\",\"red\");",
+      "$(\"p\").layout(\"background-color\",\"red\");",
+      "$(\"p\").css(\"background-color\",\"red\");"
+    ],
+    "correct": "$(\"p\").css(\"background-color\",\"red\");",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 224,
+    "topic": "jquery",
+    "question": "With jQuery, look at the following selector: $(\"div.intro\"). What does it select?",
+    "options": [
+      "The first div element with class=\"intro\"",
+      "All div elements with class=\"intro\"",
+      "All div elements with id=\"intro\"",
+      "The first div element with id=\"intro\""
+    ],
+    "correct": "All div elements with class=\"intro\"",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 225,
+    "topic": "jquery",
+    "question": "Which jQuery method is used to hide selected elements?",
+    "options": [
+      "display(none)",
+      "hide()",
+      "hidden()",
+      "visible(false)"
+    ],
+    "correct": "hide()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 226,
+    "topic": "jquery",
+    "question": "Which jQuery method is used to set one or more style properties for selected elements?",
+    "options": [
+      "style()",
+      "html()",
+      "css()"
+    ],
+    "correct": "css()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 227,
+    "topic": "jquery",
+    "question": "Which jQuery method is used to perform an asynchronous HTTP request?",
+    "options": [
+      "jQuery.ajaxAsync()",
+      "jQuery.ajaxSetup()",
+      "jQuery.ajax()"
+    ],
+    "correct": "jQuery.ajax()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 228,
+    "topic": "jquery",
+    "question": "What is the correct jQuery code for making all div elements 100 pixels high?",
+    "options": [
+      "$(\"div\").height=\"100\"",
+      "$(\"div\").yPos(100)",
+      "$(\"div\").height(100)"
+    ],
+    "correct": "$(\"div\").height(100)",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 229,
+    "topic": "jquery",
+    "question": "Which statement is true?",
+    "options": [
+      "To use jQuery, you do not have to do anything. Most browsers (Internet Explorer, Chrome, Firefox and Opera) have the jQuery library built in the browser",
+      "To use jQuery, you can refer to a hosted jQuery library at Google",
+      "To use jQuery, you must buy the jQuery library at www.jquery.com"
+    ],
+    "correct": "To use jQuery, you can refer to a hosted jQuery library at Google",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 230,
+    "topic": "jquery",
+    "question": "What scripting language is jQuery written in?",
+    "options": [
+      "C++",
+      "JavaScript",
+      "C#",
+      "VBScript"
+    ],
+    "correct": "JavaScript",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 231,
+    "topic": "jquery",
+    "question": "Which jQuery function is used to prevent code from running, before the document is finished loading?",
+    "options": [
+      "$(document).ready()",
+      "$(body).onload()",
+      "$(document).load()"
+    ],
+    "correct": "$(document).ready()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 232,
+    "topic": "jquery",
+    "question": "Which jQuery method should be used to deal with name conflicts?",
+    "options": [
+      "conflict()",
+      "nameConflict()",
+      "noNameConflict()",
+      "noConflict()"
+    ],
+    "correct": "noConflict()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 233,
+    "topic": "jquery",
+    "question": "Which jQuery method is used to switch between adding/removing one or more classes (for CSS) from selected elements?",
+    "options": [
+      "switch()",
+      "altClass()",
+      "switchClass()",
+      "toggleClass()"
+    ],
+    "correct": "toggleClass()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 234,
+    "topic": "jquery",
+    "question": "Look at the following selector: $(\"div p\"). What does it select?",
+    "options": [
+      "All div elements with a p element",
+      "The first p element inside a div element",
+      "All p elements inside a div element"
+    ],
+    "correct": "All p elements inside a div element",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 235,
+    "topic": "jquery",
+    "question": "Is jQuery a W3C standard?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correct": "No",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 236,
+    "topic": "jquery",
+    "question": "Look at the following selector: $(\"p#intro\"). What does it select?",
+    "options": [
+      "The p element with id=\"intro\"",
+      "All p elements with class=\"intro\""
+    ],
+    "correct": "The p element with id=\"intro\"",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 237,
+    "topic": "jquery",
+    "question": "Which jQuery method is used to remove selected elements?",
+    "options": [
+      "detach()",
+      "remove()",
+      "Both methods can be used"
+    ],
+    "correct": "Both methods can be used",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 238,
+    "topic": "jquery",
+    "question": "Look at the following selector: $(\":disabled\"). What does it select?",
+    "options": [
+      "All elements containing the text \"disabled\"",
+      "All disabled input elements",
+      "All hidden elements",
+      "All elements that does not contain the text \"disabled\""
+    ],
+    "correct": "All disabled input elements",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 239,
+    "topic": "jquery",
+    "question": "Which jQuery method returns the direct parent element of the selected element?",
+    "options": [
+      "ancestors()",
+      "parents()",
+      "parent()",
+      "ancestor()"
+    ],
+    "correct": "parent()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 240,
+    "topic": "jquery",
+    "question": "The jQuery animate() method can be used to animate ANY CSS property?",
+    "options": [
+      "Yes",
+      "Only properties containing numeric values",
+      "All properties except the shorthand properties"
+    ],
+    "correct": "Only properties containing numeric values",
+    "explanation": null,
+    "source": "https://www.w3schools.com/jquery/jquery_quiz.asp"
+  },
+  {
+    "id": 241,
+    "topic": "js",
+    "question": "Inside which HTML element do we put the JavaScript?",
+    "options": [
+      "<js>",
+      "<javascript>",
+      "<script>",
+      "<scripting>"
+    ],
+    "correct": "<script>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 242,
+    "topic": "js",
+    "question": "What is the correct JavaScript syntax to change the content of the HTML element below?<p id=\"demo\">This is a demonstration.</p>",
+    "options": [
+      "document.getElementById(\"demo\").innerHTML = \"Hello World!\";",
+      "document.getElementByName(\"p\").innerHTML = \"Hello World!\";",
+      "document.getElement(\"p\").innerHTML = \"Hello World!\";",
+      "#demo.innerHTML = \"Hello World!\";"
+    ],
+    "correct": "document.getElementById(\"demo\").innerHTML = \"Hello World!\";",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 243,
+    "topic": "js",
+    "question": "Where is the correct place to insert a JavaScript?",
+    "options": [
+      "The <head> section",
+      "The <body> section",
+      "Both the <head> section and the <body> section are correct"
+    ],
+    "correct": "Both the <head> section and the <body> section are correct",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 244,
+    "topic": "js",
+    "question": "What is the correct syntax for referring to an external script called \"xxx.js\"?",
+    "options": [
+      "<script src=\"xxx.js\">",
+      "<script name=\"xxx.js\">",
+      "<script href=\"xxx.js\">"
+    ],
+    "correct": "<script src=\"xxx.js\">",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 245,
+    "topic": "js",
+    "question": "The external JavaScript file must contain the <script> tag.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "False",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 246,
+    "topic": "js",
+    "question": "How do you write \"Hello World\" in an alert box?",
+    "options": [
+      "alertBox(\"Hello World\");",
+      "msg(\"Hello World\");",
+      "alert(\"Hello World\");",
+      "msgBox(\"Hello World\");"
+    ],
+    "correct": "alert(\"Hello World\");",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 247,
+    "topic": "js",
+    "question": "How do you create a function in JavaScript?",
+    "options": [
+      "function myFunction()",
+      "function = myFunction()",
+      "function:myFunction()"
+    ],
+    "correct": "function myFunction()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 248,
+    "topic": "js",
+    "question": "How do you call a function named \"myFunction\"?",
+    "options": [
+      "call myFunction()",
+      "myFunction()",
+      "call function myFunction()"
+    ],
+    "correct": "myFunction()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 249,
+    "topic": "js",
+    "question": "How to write an IF statement in JavaScript?",
+    "options": [
+      "if i = 5",
+      "if (i == 5)",
+      "if i == 5 then",
+      "if i = 5 then"
+    ],
+    "correct": "if (i == 5)",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 250,
+    "topic": "js",
+    "question": "How to write an IF statement for executing some code if \"i\" is NOT equal to 5?",
+    "options": [
+      "if i =! 5 then",
+      "if i <> 5",
+      "if (i <> 5)",
+      "if (i != 5)"
+    ],
+    "correct": "if (i != 5)",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 251,
+    "topic": "js",
+    "question": "How does a WHILE loop start?",
+    "options": [
+      "while (i <= 10; i++)",
+      "while (i <= 10)",
+      "while i = 1 to 10"
+    ],
+    "correct": "while (i <= 10)",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 252,
+    "topic": "js",
+    "question": "How does a FOR loop start?",
+    "options": [
+      "for (i = 0; i <= 5; i++)",
+      "for (i <= 5; i++)",
+      "for (i = 0; i <= 5)",
+      "for i = 1 to 5"
+    ],
+    "correct": "for (i = 0; i <= 5; i++)",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 253,
+    "topic": "js",
+    "question": "How can you add a comment in a JavaScript?",
+    "options": [
+      "'This is a comment",
+      "//This is a comment",
+      "<!--This is a comment-->"
+    ],
+    "correct": "//This is a comment",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 254,
+    "topic": "js",
+    "question": "How to insert a comment that has more than one line?",
+    "options": [
+      "/*This comment has more than one line*/",
+      "<!--This comment has more than one line-->",
+      "//This comment has more than one line//"
+    ],
+    "correct": "/*This comment has more than one line*/",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 255,
+    "topic": "js",
+    "question": "What is the correct way to write a JavaScript array?",
+    "options": [
+      "var colors = \"red\", \"green\", \"blue\"",
+      "var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")",
+      "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
+      "var colors = [\"red\", \"green\", \"blue\"]"
+    ],
+    "correct": "var colors = [\"red\", \"green\", \"blue\"]",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 256,
+    "topic": "js",
+    "question": "How do you round the number 7.25, to the nearest integer?",
+    "options": [
+      "rnd(7.25)",
+      "Math.rnd(7.25)",
+      "Math.round(7.25)",
+      "round(7.25)"
+    ],
+    "correct": "Math.round(7.25)",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 257,
+    "topic": "js",
+    "question": "How do you find the number with the highest value of x and y?",
+    "options": [
+      "ceil(x, y)",
+      "Math.max(x, y)",
+      "top(x, y)",
+      "Math.ceil(x, y)"
+    ],
+    "correct": "Math.max(x, y)",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 258,
+    "topic": "js",
+    "question": "What is the correct JavaScript syntax for opening a new window called \"w2\" ?",
+    "options": [
+      "w2 = window.new(\"http://www.w3schools.com\");",
+      "w2 = window.open(\"http://www.w3schools.com\");"
+    ],
+    "correct": "w2 = window.open(\"http://www.w3schools.com\");",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 259,
+    "topic": "js",
+    "question": "JavaScript is the same as Java.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "False",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 260,
+    "topic": "js",
+    "question": "Which is NOT a legal keyword to declare a variable in JavaScript?",
+    "options": [
+      "var",
+      "constant",
+      "let"
+    ],
+    "correct": "constant",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 261,
+    "topic": "js",
+    "question": "Which event occurs when the user clicks on an HTML element?",
+    "options": [
+      "onmouseclick",
+      "onclick",
+      "onmouseover",
+      "onchange"
+    ],
+    "correct": "onclick",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 262,
+    "topic": "js",
+    "question": "How do you declare a JavaScript variable?",
+    "options": [
+      "v carName;",
+      "var carName;",
+      "variable carName;"
+    ],
+    "correct": "var carName;",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 263,
+    "topic": "js",
+    "question": "Which operator is used to assign a value to a variable?",
+    "options": [
+      "x",
+      "=",
+      "-",
+      "*"
+    ],
+    "correct": "=",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 264,
+    "topic": "js",
+    "question": "What will the following code return: Boolean(10 > 9)",
+    "options": [
+      "NaN",
+      "true",
+      "false"
+    ],
+    "correct": "true",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 265,
+    "topic": "js",
+    "question": "Is JavaScript case-sensitive?",
+    "options": [
+      "No",
+      "Yes"
+    ],
+    "correct": "Yes",
+    "explanation": null,
+    "source": "https://www.w3schools.com/js/js_quiz.asp"
+  },
+  {
+    "id": 266,
+    "topic": "mysql",
+    "question": "What is MySQL?",
+    "options": [
+      "Developed, distributed, and supported by Oracle Corporation",
+      "All the options are correct",
+      "Cross-platform, open-source and free",
+      "A relational database management system"
+    ],
+    "correct": "All the options are correct",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 267,
+    "topic": "mysql",
+    "question": "Which MySQL statement is used to select data from a database?",
+    "options": [
+      "GET",
+      "OPEN",
+      "EXTRACT",
+      "SELECT"
+    ],
+    "correct": "SELECT",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 268,
+    "topic": "mysql",
+    "question": "Which MySQL statement is used to update data in a database?",
+    "options": [
+      "INSERT",
+      "MODIFY",
+      "SAVE",
+      "UPDATE"
+    ],
+    "correct": "UPDATE",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 269,
+    "topic": "mysql",
+    "question": "Which MySQL statement is used to delete data from a database?",
+    "options": [
+      "COLLAPSE",
+      "DELETE",
+      "REMOVE"
+    ],
+    "correct": "DELETE",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 270,
+    "topic": "mysql",
+    "question": "Which MYSQL statement is used to insert new data in a database?",
+    "options": [
+      "INSERT NEW",
+      "ADD RECORD",
+      "ADD NEW",
+      "INSERT INTO"
+    ],
+    "correct": "INSERT INTO",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 271,
+    "topic": "mysql",
+    "question": "With MySQL, how do you select a column named \"FirstName\" from a table named \"Persons\"?",
+    "options": [
+      "SELECT Persons.FirstName",
+      "SELECT FirstName FROM Persons",
+      "EXTRACT FirstName FROM Persons"
+    ],
+    "correct": "SELECT FirstName FROM Persons",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 272,
+    "topic": "mysql",
+    "question": "With MySQL, how do you select all the columns from a table named \"Persons\"?",
+    "options": [
+      "SELECT [all] FROM Persons",
+      "SELECT *.Persons",
+      "SELECT Persons",
+      "SELECT * FROM Persons"
+    ],
+    "correct": "SELECT * FROM Persons",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 273,
+    "topic": "mysql",
+    "question": "With MySQL, how do you select all the records from a table named \"Persons\" where the value of the column \"FirstName\" is \"Peter\"?",
+    "options": [
+      "SELECT [all] FROM Persons WHERE FirstName='Peter'",
+      "SELECT * FROM Persons WHERE FirstName='Peter'",
+      "SELECT * FROM Persons WHERE FirstName<>'Peter'",
+      "SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'"
+    ],
+    "correct": "SELECT * FROM Persons WHERE FirstName='Peter'",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 274,
+    "topic": "mysql",
+    "question": "With MySQL, how do you select all the records from a table named \"Persons\" where the value of the column \"FirstName\" starts with an \"a\"?",
+    "options": [
+      "SELECT * FROM Persons WHERE FirstName='a'",
+      "SELECT * FROM Persons WHERE FirstName LIKE '%a'",
+      "SELECT * FROM Persons WHERE FirstName LIKE 'a%'",
+      "SELECT * FROM Persons WHERE FirstName='%a%'"
+    ],
+    "correct": "SELECT * FROM Persons WHERE FirstName LIKE 'a%'",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 275,
+    "topic": "mysql",
+    "question": "The OR operator displays a record if ANY conditions listed are true. The AND operator displays a record if ALL of the conditions listed are true",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 276,
+    "topic": "mysql",
+    "question": "With MySQL, how do you select all the records from a table named \"Persons\" where the \"FirstName\" is \"Peter\" and the \"LastName\" is \"Jackson\"?",
+    "options": [
+      "SELECT * FROM Persons WHERE FirstName<>'Peter' AND LastName<>'Jackson'",
+      "SELECT * FROM Persons WHERE FirstName='Peter' AND LastName='Jackson'",
+      "SELECT FirstName='Peter', LastName='Jackson' FROM Persons"
+    ],
+    "correct": "SELECT * FROM Persons WHERE FirstName='Peter' AND LastName='Jackson'",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 277,
+    "topic": "mysql",
+    "question": "With MySQL, how do you select all the records from a table named \"Persons\" where the \"LastName\" is alphabetically between (and including) \"Hansen\" and \"Pettersen\"?",
+    "options": [
+      "SELECT LastName>'Hansen' AND LastName<'Pettersen' FROM Persons",
+      "SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'",
+      "SELECT * FROM Persons WHERE LastName>'Hansen' AND LastName<'Pettersen'"
+    ],
+    "correct": "SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 278,
+    "topic": "mysql",
+    "question": "Which MySQL statement is used to return only different values?",
+    "options": [
+      "SELECT DISTINCT",
+      "SELECT UNIQUE",
+      "SELECT DIFFERENT"
+    ],
+    "correct": "SELECT DISTINCT",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 279,
+    "topic": "mysql",
+    "question": "Which MySQL keyword is used to sort the result-set?",
+    "options": [
+      "SORT BY",
+      "ORDER",
+      "ORDER BY",
+      "SORT"
+    ],
+    "correct": "ORDER BY",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 280,
+    "topic": "mysql",
+    "question": "With MySQL, how can you return all the records from a table named \"Persons\" sorted descending by \"FirstName\"?",
+    "options": [
+      "SELECT * FROM Persons ORDER BY FirstName DESC",
+      "SELECT * FROM Persons ORDER FirstName DESC",
+      "SELECT * FROM Persons SORT 'FirstName' DESC",
+      "SELECT * FROM Persons SORT BY 'FirstName' DESC"
+    ],
+    "correct": "SELECT * FROM Persons ORDER BY FirstName DESC",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 281,
+    "topic": "mysql",
+    "question": "With MySQL, how can you insert a new record into the \"Persons\" table?",
+    "options": [
+      "INSERT ('Jimmy', 'Jackson') INTO Persons",
+      "INSERT VALUES ('Jimmy', 'Jackson') INTO Persons",
+      "INSERT INTO Persons VALUES ('Jimmy', 'Jackson')"
+    ],
+    "correct": "INSERT INTO Persons VALUES ('Jimmy', 'Jackson')",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 282,
+    "topic": "mysql",
+    "question": "With MySQL, how can you insert \"Olsen\" as the \"LastName\" in the \"Persons\" table?",
+    "options": [
+      "INSERT ('Olsen') INTO Persons (LastName)",
+      "INSERT INTO Persons ('Olsen') INTO LastName",
+      "INSERT INTO Persons (LastName) VALUES ('Olsen')"
+    ],
+    "correct": "INSERT INTO Persons (LastName) VALUES ('Olsen')",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 283,
+    "topic": "mysql",
+    "question": "How can you change \"Hansen\" into \"Nilsen\" in the \"LastName\" column in the Persons table?",
+    "options": [
+      "UPDATE Persons SET LastName='Hansen' INTO LastName='Nilsen'",
+      "MODIFY Persons SET LastName='Nilsen' WHERE LastName='Hansen'",
+      "MODIFY Persons SET LastName='Hansen' INTO LastName='Nilsen",
+      "UPDATE Persons SET LastName='Nilsen' WHERE LastName='Hansen'"
+    ],
+    "correct": "UPDATE Persons SET LastName='Nilsen' WHERE LastName='Hansen'",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 284,
+    "topic": "mysql",
+    "question": "With MySQL, how can you delete the records where the \"FirstName\" is \"Peter\" in the Persons Table?",
+    "options": [
+      "DELETE FirstName='Peter' FROM Persons",
+      "DELETE FROM Persons WHERE FirstName = 'Peter'",
+      "DELETE ROW FirstName='Peter' FROM Persons"
+    ],
+    "correct": "DELETE FROM Persons WHERE FirstName = 'Peter'",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 285,
+    "topic": "mysql",
+    "question": "With MySQL, how can you return the number of records in the \"Persons\" table?",
+    "options": [
+      "SELECT COLUMNS(*) FROM Persons",
+      "SELECT NO(*) FROM Persons",
+      "SELECT COUNT(*) FROM Persons",
+      "SELECT LEN(*) FROM Persons"
+    ],
+    "correct": "SELECT COUNT(*) FROM Persons",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 286,
+    "topic": "mysql",
+    "question": "What are the supported types of joins in MySQL?",
+    "options": [
+      "INNER JOIN, OUTER JOIN, LEFT JOIN, RIGHT JOIN",
+      "INNER JOIN, LEFT JOIN, RIGHT JOIN, CROSS JOIN"
+    ],
+    "correct": "INNER JOIN, LEFT JOIN, RIGHT JOIN, CROSS JOIN",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 287,
+    "topic": "mysql",
+    "question": "Which operator is used to select values within a given range?",
+    "options": [
+      "BETWEEN",
+      "IN",
+      "UNION",
+      "RANGE"
+    ],
+    "correct": "BETWEEN",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 288,
+    "topic": "mysql",
+    "question": "The NOT NULL constraint enforces a column to not accept NULL values.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 289,
+    "topic": "mysql",
+    "question": "Which operator is used to search for a specified pattern in a column?",
+    "options": [
+      "FROM",
+      "GET",
+      "LIKE"
+    ],
+    "correct": "LIKE",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 290,
+    "topic": "mysql",
+    "question": "Which MySQL statement is used to create a database table called 'Customers'?",
+    "options": [
+      "CREATE TABLE Customers",
+      "CREATE DATABASE TAB Customers",
+      "CREATE DB Customers",
+      "CREATE DATABASE TABLE Customers"
+    ],
+    "correct": "CREATE TABLE Customers",
+    "explanation": null,
+    "source": "https://www.w3schools.com/mysql/mysql_quiz.asp"
+  },
+  {
+    "id": 291,
+    "topic": "nodejs",
+    "question": "How do you include the HTTP module in a Node.js file?",
+    "options": [
+      "import http module from 'http module'",
+      "include http;",
+      "using http;",
+      "const http = require('http')"
+    ],
+    "correct": "const http = require('http')",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 292,
+    "topic": "nodejs",
+    "question": "Which method is used to create an HTTP server in Node.js?",
+    "options": [
+      "http.server()",
+      "http.startServer()",
+      "http.createServer()",
+      "http.newServer()"
+    ],
+    "correct": "http.createServer()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 293,
+    "topic": "nodejs",
+    "question": "Which method is used to read a file synchronously in Node.js?",
+    "options": [
+      "fs.readAsync()",
+      "fs.readFile()",
+      "fs.read()",
+      "fs.readFileSync()"
+    ],
+    "correct": "fs.readFileSync()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 294,
+    "topic": "nodejs",
+    "question": "Which of the following is NOT a valid HTTP method in Node.js?",
+    "options": [
+      "GET",
+      "UPDATE",
+      "POST",
+      "DELETE"
+    ],
+    "correct": "UPDATE",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 295,
+    "topic": "nodejs",
+    "question": "How do you access query parameters in an Express.js?",
+    "options": [
+      "req.param",
+      "req.params",
+      "req.query",
+      "req.body"
+    ],
+    "correct": "req.query",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 296,
+    "topic": "nodejs",
+    "question": "What is the purpose of the package.json file in a Node.js project?",
+    "options": [
+      "It contains the main application code",
+      "It is required to run JavaScript files",
+      "It contains metadata about the project and its dependencies",
+      "It stores database configurations"
+    ],
+    "correct": "It contains metadata about the project and its dependencies",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 297,
+    "topic": "nodejs",
+    "question": "Which command is used to install all dependencies listed in package.json?",
+    "options": [
+      "npm update",
+      "npm start",
+      "npm install",
+      "npm init"
+    ],
+    "correct": "npm install",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 298,
+    "topic": "nodejs",
+    "question": "What is the purpose of the node_modules folder?",
+    "options": [
+      "It contains all the installed dependencies",
+      "It holds temporary files",
+      "It contains the Node.js source code",
+      "It stores user configuration files"
+    ],
+    "correct": "It contains all the installed dependencies",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 299,
+    "topic": "nodejs",
+    "question": "Which method is used to parse JSON data in Node.js?",
+    "options": [
+      "JSON.encode()",
+      "JSON.decode()",
+      "JSON.stringify()",
+      "JSON.parse()"
+    ],
+    "correct": "JSON.parse()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 300,
+    "topic": "nodejs",
+    "question": "Which module would you use to work with file paths in a cross-platform way?",
+    "options": [
+      "path",
+      "os",
+      "fs",
+      "url"
+    ],
+    "correct": "path",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 301,
+    "topic": "nodejs",
+    "question": "What is the purpose of the require() function in Node.js?",
+    "options": [
+      "To validate user input",
+      "To include modules that exist in separate files",
+      "To make HTTP requests",
+      "To include CSS files"
+    ],
+    "correct": "To include modules that exist in separate files",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 302,
+    "topic": "nodejs",
+    "question": "Which method is used to handle GET requests in Express.js?",
+    "options": [
+      "app.delete()",
+      "app.put()",
+      "app.post()",
+      "app.get()"
+    ],
+    "correct": "app.get()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 303,
+    "topic": "nodejs",
+    "question": "What is the purpose of the crypto module in Node.js?",
+    "options": [
+      "To validate user input",
+      "To provide cryptographic functionality",
+      "To handle database connections",
+      "To manage file uploads"
+    ],
+    "correct": "To provide cryptographic functionality",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 304,
+    "topic": "nodejs",
+    "question": "What is the purpose of the path.join() method in Node.js?",
+    "options": [
+      "To split a path into segments",
+      "To get the file extension from a path",
+      "To resolve a path to an absolute path",
+      "To join multiple path segments into a single path"
+    ],
+    "correct": "To join multiple path segments into a single path",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 305,
+    "topic": "nodejs",
+    "question": "Which of the following is NOT a valid way to read environment variables in Node.js?",
+    "options": [
+      "const { VARIABLE_NAME } = process.env",
+      "process.env['VARIABLE_NAME']",
+      "process.env.VARIABLE_NAME",
+      "process.getEnv('VARIABLE_NAME')"
+    ],
+    "correct": "process.getEnv('VARIABLE_NAME')",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 306,
+    "topic": "nodejs",
+    "question": "What is the purpose of the util.promisify() method in Node.js?",
+    "options": [
+      "To convert callback-based functions to Promises",
+      "To create utility functions",
+      "To validate function parameters",
+      "To measure function execution time"
+    ],
+    "correct": "To convert callback-based functions to Promises",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 307,
+    "topic": "nodejs",
+    "question": "Which module would you use to create a child process in Node.js?",
+    "options": [
+      "http",
+      "child_process",
+      "os",
+      "process"
+    ],
+    "correct": "child_process",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 308,
+    "topic": "nodejs",
+    "question": "What is the purpose of the events module in Node.js?",
+    "options": [
+      "To handle HTTP requests and responses",
+      "To work with the file system",
+      "To manage database connections",
+      "To handle and create custom events"
+    ],
+    "correct": "To handle and create custom events",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 309,
+    "topic": "nodejs",
+    "question": "Which method is used to read environment variables from a .env file?",
+    "options": [
+      "require('dotenv').config()",
+      "process.env.load()",
+      "process.config()",
+      "process.loadEnv()"
+    ],
+    "correct": "require('dotenv').config()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 310,
+    "topic": "nodejs",
+    "question": "Which of the following is NOT a valid stream event in Node.js?",
+    "options": [
+      "end",
+      "error",
+      "complete",
+      "data"
+    ],
+    "correct": "complete",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 311,
+    "topic": "nodejs",
+    "question": "Which method is used to redirect a response in Express.js?",
+    "options": [
+      "res.redirect()",
+      "res.go()",
+      "res.forward()",
+      "res.to()"
+    ],
+    "correct": "res.redirect()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 312,
+    "topic": "nodejs",
+    "question": "What is the purpose of the app.use() method in Express.js?",
+    "options": [
+      "To handle errors",
+      "To send responses",
+      "To define route handlers",
+      "To mount middleware functions"
+    ],
+    "correct": "To mount middleware functions",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 313,
+    "topic": "nodejs",
+    "question": "Which of the following best describes the architecture of Node.js?",
+    "options": [
+      "Multi-threaded, user-driven",
+      "Single-threaded, event-driven",
+      "Multi-threaded, event-driven",
+      "Single-threaded, session-driven"
+    ],
+    "correct": "Single-threaded, event-driven",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 314,
+    "topic": "nodejs",
+    "question": "The Node.js Event Loop is responsible for making Node.js:",
+    "options": [
+      "Inefficient and slow",
+      "Non-blocking and efficient",
+      "Synchronous and blocking",
+      "Asynchronous but slow"
+    ],
+    "correct": "Non-blocking and efficient",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 315,
+    "topic": "nodejs",
+    "question": "NPM is a",
+    "options": [
+      "Programming language",
+      "Database system",
+      "Web development framework",
+      "Package Manager"
+    ],
+    "correct": "Package Manager",
+    "explanation": null,
+    "source": "https://www.w3schools.com/nodejs/nodejs_quiz.asp"
+  },
+  {
+    "id": 316,
+    "topic": "php",
+    "question": "What does PHP stand for?",
+    "options": [
+      "Personal Hypertext Processor",
+      "PHP: Hypertext Preprocessor",
+      "Private Home Page"
+    ],
+    "correct": "PHP: Hypertext Preprocessor",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 317,
+    "topic": "php",
+    "question": "PHP server scripts are surrounded by delimiters, which?",
+    "options": [
+      "<?php...?>",
+      "<?php>...</?>",
+      "<&>...</&>",
+      "<script>...</script>"
+    ],
+    "correct": "<?php...?>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 318,
+    "topic": "php",
+    "question": "How do you write \"Hello World\" in PHP",
+    "options": [
+      "\"Hello World\";",
+      "Document.Write(\"Hello World\");",
+      "echo \"Hello World\";"
+    ],
+    "correct": "echo \"Hello World\";",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 319,
+    "topic": "php",
+    "question": "All variables in PHP start with which symbol?",
+    "options": [
+      "!",
+      "&",
+      "$"
+    ],
+    "correct": "$",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 320,
+    "topic": "php",
+    "question": "What is the correct way to end a PHP statement?",
+    "options": [
+      ";",
+      "New line",
+      ".",
+      "</php>"
+    ],
+    "correct": ";",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 321,
+    "topic": "php",
+    "question": "The PHP syntax is most similar to:",
+    "options": [
+      "JavaScript",
+      "Perl and C",
+      "VBScript"
+    ],
+    "correct": "Perl and C",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 322,
+    "topic": "php",
+    "question": "How do you get information from a form that is submitted using the \"get\" method?",
+    "options": [
+      "Request.Form;",
+      "Request.QueryString;",
+      "$_GET[];"
+    ],
+    "correct": "$_GET[];",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 323,
+    "topic": "php",
+    "question": "When using the POST method, variables are displayed in the URL:",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "False",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 324,
+    "topic": "php",
+    "question": "In PHP you can use both single quotes ( ' ' ) and double quotes ( \" \" ) for strings:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 325,
+    "topic": "php",
+    "question": "Include files must have the file extension \".inc\"",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "False",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 326,
+    "topic": "php",
+    "question": "What is the correct way to include the file \"time.inc\" ?",
+    "options": [
+      "<?php include \"time.inc\"; ?>",
+      "<?php include file=\"time.inc\"; ?>",
+      "<!-- include file=\"time.inc\" -->",
+      "<?php include:\"time.inc\"; ?>"
+    ],
+    "correct": "<?php include \"time.inc\"; ?>",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 327,
+    "topic": "php",
+    "question": "What is the correct way to create a function in PHP?",
+    "options": [
+      "create myFunction()",
+      "function myFunction()",
+      "new_function myFunction()"
+    ],
+    "correct": "function myFunction()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 328,
+    "topic": "php",
+    "question": "What is the correct way to open the file \"time.txt\" as readable?",
+    "options": [
+      "open(\"time.txt\",\"read\");",
+      "fopen(\"time.txt\",\"r+\");",
+      "open(\"time.txt\");",
+      "fopen(\"time.txt\",\"r\");"
+    ],
+    "correct": "fopen(\"time.txt\",\"r\");",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 329,
+    "topic": "php",
+    "question": "PHP allows you to send emails directly from a script",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 330,
+    "topic": "php",
+    "question": "Which superglobal variable holds information about headers, paths, and script locations?",
+    "options": [
+      "$_SESSION",
+      "$_SERVER",
+      "$GLOBALS",
+      "$_GET"
+    ],
+    "correct": "$_SERVER",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 331,
+    "topic": "php",
+    "question": "What is the correct way to add 1 to the $count variable?",
+    "options": [
+      "$count++;",
+      "count++;",
+      "$count =+1",
+      "++count"
+    ],
+    "correct": "$count++;",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 332,
+    "topic": "php",
+    "question": "What is a correct way to add a comment in PHP?",
+    "options": [
+      "<comment>...</comment>",
+      "<!--...-->",
+      "/*...*/",
+      "*\\...\\*"
+    ],
+    "correct": "/*...*/",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 333,
+    "topic": "php",
+    "question": "PHP can be run on Microsoft Windows IIS(Internet Information Server):",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 334,
+    "topic": "php",
+    "question": "The die() and exit() functions do the exact same thing.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 335,
+    "topic": "php",
+    "question": "Which one of these variables has an illegal name?",
+    "options": [
+      "$my-Var",
+      "$my_Var",
+      "$myVar"
+    ],
+    "correct": "$my-Var",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 336,
+    "topic": "php",
+    "question": "How do you create a cookie in PHP?",
+    "options": [
+      "setcookie()",
+      "makecookie()",
+      "createcookie"
+    ],
+    "correct": "setcookie()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 337,
+    "topic": "php",
+    "question": "In PHP, the only way to output text is with echo.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "False",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 338,
+    "topic": "php",
+    "question": "How do you create an array in PHP?",
+    "options": [
+      "$cars = array[\"Volvo\", \"BMW\", \"Toyota\"];",
+      "$cars = array(\"Volvo\", \"BMW\", \"Toyota\");",
+      "$cars = \"Volvo\", \"BMW\", \"Toyota\";"
+    ],
+    "correct": "$cars = array(\"Volvo\", \"BMW\", \"Toyota\");",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 339,
+    "topic": "php",
+    "question": "The if statement is used to execute some code only if a specified condition is true",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 340,
+    "topic": "php",
+    "question": "Which operator is used to check if two values are equal and of same data type?",
+    "options": [
+      "!=",
+      "===",
+      "=",
+      "=="
+    ],
+    "correct": "===",
+    "explanation": null,
+    "source": "https://www.w3schools.com/php/php_quiz.asp"
+  },
+  {
+    "id": 341,
+    "topic": "python",
+    "question": "What is a correct syntax to output \"Hello World\" in Python?",
+    "options": [
+      "print(\"Hello World\")",
+      "p(\"Hello World\")",
+      "echo(\"Hello World\");",
+      "echo \"Hello World\""
+    ],
+    "correct": "print(\"Hello World\")",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 342,
+    "topic": "python",
+    "question": "How do you insert COMMENTS in Python code?",
+    "options": [
+      "/*This is a comment*/",
+      "#This is a comment",
+      "//This is a comment"
+    ],
+    "correct": "#This is a comment",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 343,
+    "topic": "python",
+    "question": "Which one is NOT a legal variable name?",
+    "options": [
+      "my-var",
+      "Myvar",
+      "my_var",
+      "_myvar"
+    ],
+    "correct": "my-var",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 344,
+    "topic": "python",
+    "question": "How do you create a variable with the numeric value 5?",
+    "options": [
+      "x = 5",
+      "Both the other answers are correct",
+      "x = int(5)"
+    ],
+    "correct": "Both the other answers are correct",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 345,
+    "topic": "python",
+    "question": "What is the correct file extension for Python files?",
+    "options": [
+      ".pt",
+      ".pyth",
+      ".py",
+      ".pyt"
+    ],
+    "correct": ".py",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 346,
+    "topic": "python",
+    "question": "How do you create a variable with the floating number 2.8?",
+    "options": [
+      "x = 2.8",
+      "x = float(2.8)",
+      "Both the other answers are correct"
+    ],
+    "correct": "Both the other answers are correct",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 347,
+    "topic": "python",
+    "question": "What is the correct syntax to output the type of a variable or object in Python?",
+    "options": [
+      "print(typeOf(x))",
+      "print(typeof(x))",
+      "print(typeof x)",
+      "print(type(x))"
+    ],
+    "correct": "print(type(x))",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 348,
+    "topic": "python",
+    "question": "What is the correct way to create a function in Python?",
+    "options": [
+      "def myFunction():",
+      "create myFunction():",
+      "function myfunction():"
+    ],
+    "correct": "def myFunction():",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 349,
+    "topic": "python",
+    "question": "In Python, 'Hello', is the same as \"Hello\"",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 350,
+    "topic": "python",
+    "question": "What is a correct syntax to return the first character in a string?",
+    "options": [
+      "x = sub(\"Hello\", 0, 1)",
+      "x = \"Hello\"[0]",
+      "x = \"Hello\".sub(0, 1)"
+    ],
+    "correct": "x = \"Hello\"[0]",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 351,
+    "topic": "python",
+    "question": "Which method can be used to remove any whitespace from both the beginning and the end of a string?",
+    "options": [
+      "trim()",
+      "strip()",
+      "ptrim()",
+      "len()"
+    ],
+    "correct": "strip()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 352,
+    "topic": "python",
+    "question": "Which method can be used to return a string in upper case letters?",
+    "options": [
+      "upperCase()",
+      "uppercase()",
+      "toUpperCase()",
+      "upper()"
+    ],
+    "correct": "upper()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 353,
+    "topic": "python",
+    "question": "Which method can be used to replace parts of a string?",
+    "options": [
+      "replace()",
+      "replaceString()",
+      "switch()",
+      "repl()"
+    ],
+    "correct": "replace()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 354,
+    "topic": "python",
+    "question": "Which operator is used to multiply numbers?",
+    "options": [
+      "%",
+      "#",
+      "x",
+      "*"
+    ],
+    "correct": "*",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 355,
+    "topic": "python",
+    "question": "Which operator can be used to compare two values?",
+    "options": [
+      "==",
+      "=",
+      "><",
+      "<>"
+    ],
+    "correct": "==",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 356,
+    "topic": "python",
+    "question": "Which of these collections defines a LIST?",
+    "options": [
+      "{\"name\": \"apple\", \"color\": \"green\"}",
+      "(\"apple\", \"banana\", \"cherry\")",
+      "{\"apple\", \"banana\", \"cherry\"}",
+      "[\"apple\", \"banana\", \"cherry\"]"
+    ],
+    "correct": "[\"apple\", \"banana\", \"cherry\"]",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 357,
+    "topic": "python",
+    "question": "Which of these collections defines a TUPLE?",
+    "options": [
+      "(\"apple\", \"banana\", \"cherry\")",
+      "{\"name\": \"apple\", \"color\": \"green\"}",
+      "{\"apple\", \"banana\", \"cherry\"}",
+      "[\"apple\", \"banana\", \"cherry\"]"
+    ],
+    "correct": "(\"apple\", \"banana\", \"cherry\")",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 358,
+    "topic": "python",
+    "question": "Which of these collections defines a SET?",
+    "options": [
+      "[\"apple\", \"banana\", \"cherry\"]",
+      "{\"apple\", \"banana\", \"cherry\"}",
+      "(\"apple\", \"banana\", \"cherry\")",
+      "{\"name\": \"apple\", \"color\": \"green\"}"
+    ],
+    "correct": "{\"apple\", \"banana\", \"cherry\"}",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 359,
+    "topic": "python",
+    "question": "Which of these collections defines a DICTIONARY?",
+    "options": [
+      "(\"apple\", \"banana\", \"cherry\")",
+      "{\"name\": \"apple\", \"color\": \"green\"}",
+      "{\"apple\", \"banana\", \"cherry\"}",
+      "[\"apple\", \"banana\", \"cherry\"]"
+    ],
+    "correct": "{\"name\": \"apple\", \"color\": \"green\"}",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 360,
+    "topic": "python",
+    "question": "Which collection is ordered, changeable, and allows duplicate members?",
+    "options": [
+      "TUPLE",
+      "SET",
+      "DICTIONARY",
+      "LIST"
+    ],
+    "correct": "LIST",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 361,
+    "topic": "python",
+    "question": "Which collection does not allow duplicate members?",
+    "options": [
+      "SET",
+      "LIST",
+      "TUPLE"
+    ],
+    "correct": "SET",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 362,
+    "topic": "python",
+    "question": "How do you start writing an if statement in Python?",
+    "options": [
+      "if x > y:",
+      "if (x > y)",
+      "if x > y then:"
+    ],
+    "correct": "if x > y:",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 363,
+    "topic": "python",
+    "question": "How do you start writing a while loop in Python?",
+    "options": [
+      "while (x > y)",
+      "while x > y:",
+      "x > y while {",
+      "while x > y {"
+    ],
+    "correct": "while x > y:",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 364,
+    "topic": "python",
+    "question": "How do you start writing a for loop in Python?",
+    "options": [
+      "for x in y:",
+      "for x > y:",
+      "for each x in y:"
+    ],
+    "correct": "for x in y:",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 365,
+    "topic": "python",
+    "question": "Which statement is used to stop a loop?",
+    "options": [
+      "break",
+      "return",
+      "exit",
+      "stop"
+    ],
+    "correct": "break",
+    "explanation": null,
+    "source": "https://www.w3schools.com/python/python_quiz.asp"
+  },
+  {
+    "id": 366,
+    "topic": "r",
+    "question": "What is a correct syntax to output \"Hello World\" in R?",
+    "options": [
+      "\"Hello World\"",
+      "print(\"Hello World\")",
+      "'Hello World'",
+      "All of the other answers are correct"
+    ],
+    "correct": "All of the other answers are correct",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 367,
+    "topic": "r",
+    "question": "R is an alias of React",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "False",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 368,
+    "topic": "r",
+    "question": "How do you insert COMMENTS in R code?",
+    "options": [
+      "# This is a comment",
+      "// This is a comment",
+      "/* This is a comment"
+    ],
+    "correct": "# This is a comment",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 369,
+    "topic": "r",
+    "question": "In R, you must declare the data type of a variable",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "False",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 370,
+    "topic": "r",
+    "question": "How do you create a variable named x with the numeric value 5?",
+    "options": [
+      "x <- 5",
+      "x : 5",
+      "int x = 5"
+    ],
+    "correct": "x <- 5",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 371,
+    "topic": "r",
+    "question": "Which function is often used to concatenate elements?",
+    "options": [
+      "concat()",
+      "join()",
+      "merge()",
+      "paste()"
+    ],
+    "correct": "paste()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 372,
+    "topic": "r",
+    "question": "How can you assign the same value to multiple variables in one line?",
+    "options": [
+      "var1, var2, var3 <- \"Orange\"",
+      "var1 <- var2 <- var3 <- \"Orange\"",
+      "var1, var2, var3 = \"Orange\""
+    ],
+    "correct": "var1 <- var2 <- var3 <- \"Orange\"",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 373,
+    "topic": "r",
+    "question": "Which operator is used to add together two values?",
+    "options": [
+      "The + sign",
+      "The & sign",
+      "The * sign"
+    ],
+    "correct": "The + sign",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 374,
+    "topic": "r",
+    "question": "The value of a string variable can be surrounded by single quotes.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 375,
+    "topic": "r",
+    "question": "The following values: 10.5, 55 and 787, belongs to which data type?",
+    "options": [
+      "integer",
+      "numeric",
+      "complex"
+    ],
+    "correct": "numeric",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 376,
+    "topic": "r",
+    "question": "Which operator can be used to compare two values?",
+    "options": [
+      "=",
+      "<>",
+      "==",
+      "><"
+    ],
+    "correct": "==",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 377,
+    "topic": "r",
+    "question": "Which function can be used to return the square root of a number?",
+    "options": [
+      "sqroot()",
+      "square_root()",
+      "sqrt()",
+      "sr()"
+    ],
+    "correct": "sqrt()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 378,
+    "topic": "r",
+    "question": "What will the following function do with the str string: nchar(str)",
+    "options": [
+      "Add a new line for each word inside the str string",
+      "Add spaces to each word inside the str string",
+      "Insert an escape character before the str string",
+      "Find the number of characters in the str string"
+    ],
+    "correct": "Find the number of characters in the str string",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 379,
+    "topic": "r",
+    "question": "How do you create a function in R?",
+    "options": [
+      "my_function <- function()",
+      "my_function <- function[]",
+      "my_function <- function."
+    ],
+    "correct": "my_function <- function()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 380,
+    "topic": "r",
+    "question": "How do you call a function in R?",
+    "options": [
+      "my_function;",
+      "(my_function);",
+      "my_function()",
+      "my_function[]"
+    ],
+    "correct": "my_function()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 381,
+    "topic": "r",
+    "question": "Consider the following code: for (x 1:10). Which keyword is missing inside the for loop to output the numbers 1 to 10?",
+    "options": [
+      "inside",
+      "in",
+      "seq",
+      "list"
+    ],
+    "correct": "in",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 382,
+    "topic": "r",
+    "question": "What is the correct way to create a vector of strings?",
+    "options": [
+      "fruits <- c(\"banana\", \"apple\", \"orange\")",
+      "fruits <- listOf(\"banana\", \"apple\", \"orange\")",
+      "fruits <- v(\"banana\", \"apple\", \"orange\")",
+      "fruits <- list(\"banana\", \"apple\", \"orange\")"
+    ],
+    "correct": "fruits <- c(\"banana\", \"apple\", \"orange\")",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 383,
+    "topic": "r",
+    "question": "What is the correct way to create a list of strings?",
+    "options": [
+      "fruits <- v(\"banana\", \"apple\", \"orange\")",
+      "fruits <- list(\"banana\", \"apple\", \"orange\")",
+      "fruits <- vectorOf(\"banana\", \"apple\", \"orange\")",
+      "fruits <- c(\"banana\", \"apple\", \"orange\")"
+    ],
+    "correct": "fruits <- list(\"banana\", \"apple\", \"orange\")",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 384,
+    "topic": "r",
+    "question": "Which function can be used to create a data frame?",
+    "options": [
+      "dataframe()",
+      "df()",
+      "dframe()",
+      "data.frame()"
+    ],
+    "correct": "data.frame()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 385,
+    "topic": "r",
+    "question": "Which function is used to draw points (markers) in a diagram?",
+    "options": [
+      "canvas()",
+      "d()",
+      "draw()",
+      "plot()"
+    ],
+    "correct": "plot()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 386,
+    "topic": "r",
+    "question": "Which function is used to add additional columns in a matrix?",
+    "options": [
+      "add()",
+      "append_item()",
+      "cbind()",
+      "join()"
+    ],
+    "correct": "cbind()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 387,
+    "topic": "r",
+    "question": "How do you start writing an if statement in R?",
+    "options": [
+      "if x > y then:",
+      "if x > y:",
+      "if (x > y)"
+    ],
+    "correct": "if (x > y)",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 388,
+    "topic": "r",
+    "question": "How do you start writing a while loop in R?",
+    "options": [
+      "while (x < y)",
+      "while x < y",
+      "while x < y:",
+      "x < y while"
+    ],
+    "correct": "while (x < y)",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 389,
+    "topic": "r",
+    "question": "Which function is used to find the amount of rows and columns in an array?",
+    "options": [
+      "length()",
+      "dim_len()",
+      "nchar()",
+      "dim()"
+    ],
+    "correct": "dim()",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 390,
+    "topic": "r",
+    "question": "Which statement is used to stop a loop?",
+    "options": [
+      "return",
+      "break",
+      "stop",
+      "exit"
+    ],
+    "correct": "break",
+    "explanation": null,
+    "source": "https://www.w3schools.com/r/r_quiz.asp"
+  },
+  {
+    "id": 391,
+    "topic": "react",
+    "question": "What is React?",
+    "options": [
+      "React is a JavaScript library for building user interfaces.",
+      "React is a programming language.",
+      "React is a database engine."
+    ],
+    "correct": "React is a JavaScript library for building user interfaces.",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 392,
+    "topic": "react",
+    "question": "What doesmy-react-apprefer to in the following command?npm create vite@latest my-react-app -- --template react",
+    "options": [
+      "The type of app to create",
+      "The name you want to use for the new app",
+      "A reference to an existing app"
+    ],
+    "correct": "The name you want to use for the new app",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 393,
+    "topic": "react",
+    "question": "What command is used to start the React local development server?",
+    "options": [
+      "npm start",
+      "npm build",
+      "npm run dev",
+      "npm serve"
+    ],
+    "correct": "npm run dev",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 394,
+    "topic": "react",
+    "question": "What is the default local host port that Vite uses for a React development server?",
+    "options": [
+      "5173",
+      "8080",
+      "5000",
+      "3000"
+    ],
+    "correct": "5173",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 395,
+    "topic": "react",
+    "question": "To develop and run React code, Node.js is required.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 396,
+    "topic": "react",
+    "question": "What type of element will be rendered from the following code?function Car() {return <h1>Ford Mustang</h1>;}createRoot(document.getElementById('root')).render(<Car />)",
+    "options": [
+      "div",
+      "Component",
+      "h1",
+      "ReactDom"
+    ],
+    "correct": "h1",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 397,
+    "topic": "react",
+    "question": "What is the children prop?",
+    "options": [
+      "A property that adds child values to state",
+      "A property that lets you nest components in other components",
+      "A property that lets you pass data to child components",
+      "A property that lets you set an object as a property"
+    ],
+    "correct": "A property that lets you nest components in other components",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 398,
+    "topic": "react",
+    "question": "Which keyword creates a constant in JavaScript?",
+    "options": [
+      "let",
+      "var",
+      "const",
+      "constant"
+    ],
+    "correct": "const",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 399,
+    "topic": "react",
+    "question": "A copy of the 'real' DOM that is kept in memory is called what?",
+    "options": [
+      "Shadow DOM",
+      "DOM",
+      "React DOM",
+      "Virtual DOM"
+    ],
+    "correct": "Virtual DOM",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 400,
+    "topic": "react",
+    "question": "React component names must begin with an uppercase letter.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 401,
+    "topic": "react",
+    "question": "Which operator can be used to conditionally render a React component?",
+    "options": [
+      "||",
+      "::",
+      "&&",
+      "??"
+    ],
+    "correct": "&&",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 402,
+    "topic": "react",
+    "question": "When rendering a list using the JavaScriptmap()method, what is required for each element rendered?",
+    "options": [
+      "key",
+      "data",
+      "id",
+      "index"
+    ],
+    "correct": "key",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 403,
+    "topic": "react",
+    "question": "What does JSX stand for?",
+    "options": [
+      "JavaScript X-factor",
+      "JavaScript XML",
+      "JavaScript Extreme",
+      "JavaScript Expressions"
+    ],
+    "correct": "JavaScript XML",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 404,
+    "topic": "react",
+    "question": "How can you optimize performance for a function component that always renders the same way?",
+    "options": [
+      "Use the useReducer Hook.",
+      "Use the useMemo Hook.",
+      "Use the shouldComponentUpdate lifecycle method.",
+      "Wrap it in the React.memo higher-order component."
+    ],
+    "correct": "Wrap it in the React.memo higher-order component.",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 405,
+    "topic": "react",
+    "question": "What props will be available to the following component?<Car {...props} />",
+    "options": [
+      "only updated ones",
+      "children",
+      "all of them",
+      "only static ones"
+    ],
+    "correct": "all of them",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 406,
+    "topic": "react",
+    "question": "What is a common use case for ref?",
+    "options": [
+      "To bind the function",
+      "To directly access a DOM node",
+      "To refer to a function",
+      "To refer to another JavaScript file"
+    ],
+    "correct": "To directly access a DOM node",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 407,
+    "topic": "react",
+    "question": "How can you combine the following arrays using the spread operator?const array1 = [1, 2, 3];const array2 = [4, 5, 6];",
+    "options": [
+      "const combined = ...array1 + ...array2;",
+      "const combined = [array1, array2];",
+      "const combined = array1 + array2;",
+      "const combined = [...array1, ...array2];"
+    ],
+    "correct": "const combined = [...array1, ...array2];",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 408,
+    "topic": "react",
+    "question": "React can only render elements in the root document element.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": "False",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 409,
+    "topic": "react",
+    "question": "What is the correct syntax to export a component named Car from a file?",
+    "options": [
+      "export internal Car;",
+      "export default Car;",
+      "export Component.Car;",
+      "export Car as Component;"
+    ],
+    "correct": "export default Car;",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 410,
+    "topic": "react",
+    "question": "Find the bug in this code:function car({make, model}) {return <h1>{make} {model}</h1>;};",
+    "options": [
+      "Wrap the return in a fragment",
+      "The first letter of the function must be capitalized",
+      "Remove the return statement",
+      "Add parenthesis around the return value"
+    ],
+    "correct": "The first letter of the function must be capitalized",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 411,
+    "topic": "react",
+    "question": "React separates the user interface into components. How are components combinded to create a user interface?",
+    "options": [
+      "With webpack",
+      "With code splitting",
+      "By nesting components",
+      "By putting them in a folder structure"
+    ],
+    "correct": "By nesting components",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 412,
+    "topic": "react",
+    "question": "Although React Hooks generally replace class components, there are no plans to remove classes from React.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 413,
+    "topic": "react",
+    "question": "Which of the following is NOT a rule for React Hooks?",
+    "options": [
+      "Hooks can be called in Class or Function components",
+      "Hooks can only be called at the top level of a component",
+      "Hooks can only be called inside React Function components",
+      "Hooks cannot be conditional"
+    ],
+    "correct": "Hooks can be called in Class or Function components",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 414,
+    "topic": "react",
+    "question": "What is the output of the following code?const make = 'Ford';const model = 'Mustang';const car = { make, model };console.log(car);",
+    "options": [
+      "{car: 'Ford', car: 'Mustang'}}",
+      "{make: 'Ford', model: 'Mustang'}",
+      "{{make: 'Ford', model: 'Mustang'}}",
+      "{car: {make: 'Ford', model: 'Mustang'}}"
+    ],
+    "correct": "{make: 'Ford', model: 'Mustang'}",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 415,
+    "topic": "react",
+    "question": "Why should you avoid copying the values of props into a component's state?",
+    "options": [
+      "Because you want to allow data to flow back up to the parent",
+      "Because you should never mutate state",
+      "Because that would create two instances of the same state that could become out of sync",
+      "Because prop values cannot be stored in state"
+    ],
+    "correct": "Because that would create two instances of the same state that could become out of sync",
+    "explanation": null,
+    "source": "https://www.w3schools.com/react/react_quiz.asp"
+  },
+  {
+    "id": 416,
+    "topic": "sql",
+    "question": "What does SQL stand for?",
+    "options": [
+      "Structured Question Language",
+      "Strong Question Language",
+      "Structured Query Language"
+    ],
+    "correct": "Structured Query Language",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 417,
+    "topic": "sql",
+    "question": "Which SQL statement is used to extract data from a database?",
+    "options": [
+      "GET",
+      "SELECT",
+      "EXTRACT",
+      "OPEN"
+    ],
+    "correct": "SELECT",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 418,
+    "topic": "sql",
+    "question": "Which SQL statement is used to update data in a database?",
+    "options": [
+      "SAVE AS",
+      "UPDATE",
+      "SAVE",
+      "MODIFY"
+    ],
+    "correct": "UPDATE",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 419,
+    "topic": "sql",
+    "question": "Which SQL statement is used to delete data from a database?",
+    "options": [
+      "COLLAPSE",
+      "DELETE",
+      "REMOVE"
+    ],
+    "correct": "DELETE",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 420,
+    "topic": "sql",
+    "question": "Which SQL statement is used to insert new data in a database?",
+    "options": [
+      "INSERT NEW",
+      "ADD RECORD",
+      "INSERT INTO",
+      "ADD NEW"
+    ],
+    "correct": "INSERT INTO",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 421,
+    "topic": "sql",
+    "question": "With SQL, how do you select a column named \"FirstName\" from a table named \"Persons\"?",
+    "options": [
+      "EXTRACT FirstName FROM Persons",
+      "SELECT FirstName FROM Persons",
+      "SELECT Persons.FirstName"
+    ],
+    "correct": "SELECT FirstName FROM Persons",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 422,
+    "topic": "sql",
+    "question": "With SQL, how do you select all the columns from a table named \"Persons\"?",
+    "options": [
+      "SELECT * FROM Persons",
+      "SELECT *.Persons",
+      "SELECT [all] FROM Persons",
+      "SELECT Persons"
+    ],
+    "correct": "SELECT * FROM Persons",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 423,
+    "topic": "sql",
+    "question": "With SQL, how do you select all the records from a table named \"Persons\" where the value of the column \"FirstName\" is \"Peter\"?",
+    "options": [
+      "SELECT * FROM Persons WHERE FirstName='Peter'",
+      "SELECT * FROM Persons WHERE FirstName<>'Peter'",
+      "SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'",
+      "SELECT [all] FROM Persons WHERE FirstName='Peter'"
+    ],
+    "correct": "SELECT * FROM Persons WHERE FirstName='Peter'",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 424,
+    "topic": "sql",
+    "question": "With SQL, how do you select all the records from a table named \"Persons\" where the value of the column \"FirstName\" starts with an \"a\"?",
+    "options": [
+      "SELECT * FROM Persons WHERE FirstName='a'",
+      "SELECT * FROM Persons WHERE FirstName='%a%'",
+      "SELECT * FROM Persons WHERE FirstName LIKE '%a'",
+      "SELECT * FROM Persons WHERE FirstName LIKE 'a%'"
+    ],
+    "correct": "SELECT * FROM Persons WHERE FirstName LIKE 'a%'",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 425,
+    "topic": "sql",
+    "question": "The OR operator displays a record if ANY conditions listed are true. The AND operator displays a record if ALL of the conditions listed are true",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 426,
+    "topic": "sql",
+    "question": "With SQL, how do you select all the records from a table named \"Persons\" where the \"FirstName\" is \"Peter\" and the \"LastName\" is \"Jackson\"?",
+    "options": [
+      "SELECT * FROM Persons WHERE FirstName<>'Peter' AND LastName<>'Jackson'",
+      "SELECT FirstName='Peter', LastName='Jackson' FROM Persons",
+      "SELECT * FROM Persons WHERE FirstName='Peter' AND LastName='Jackson'"
+    ],
+    "correct": "SELECT * FROM Persons WHERE FirstName='Peter' AND LastName='Jackson'",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 427,
+    "topic": "sql",
+    "question": "With SQL, how do you select all the records from a table named \"Persons\" where the \"LastName\" is alphabetically between (and including) \"Hansen\" and \"Pettersen\"?",
+    "options": [
+      "SELECT LastName>'Hansen' AND LastName<'Pettersen' FROM Persons",
+      "SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'",
+      "SELECT * FROM Persons WHERE LastName>'Hansen' AND LastName<'Pettersen'"
+    ],
+    "correct": "SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 428,
+    "topic": "sql",
+    "question": "Which SQL statement is used to return only different values?",
+    "options": [
+      "SELECT DIFFERENT",
+      "SELECT UNIQUE",
+      "SELECT DISTINCT"
+    ],
+    "correct": "SELECT DISTINCT",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 429,
+    "topic": "sql",
+    "question": "Which SQL keyword is used to sort the result-set?",
+    "options": [
+      "SORT BY",
+      "ORDER",
+      "SORT",
+      "ORDER BY"
+    ],
+    "correct": "ORDER BY",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 430,
+    "topic": "sql",
+    "question": "With SQL, how can you return all the records from a table named \"Persons\" sorted descending by \"FirstName\"?",
+    "options": [
+      "SELECT * FROM Persons ORDER FirstName DESC",
+      "SELECT * FROM Persons ORDER BY FirstName DESC",
+      "SELECT * FROM Persons SORT 'FirstName' DESC",
+      "SELECT * FROM Persons SORT BY 'FirstName' DESC"
+    ],
+    "correct": "SELECT * FROM Persons ORDER BY FirstName DESC",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 431,
+    "topic": "sql",
+    "question": "With SQL, how can you insert a new record into the \"Persons\" table?",
+    "options": [
+      "INSERT ('Jimmy', 'Jackson') INTO Persons",
+      "INSERT INTO Persons VALUES ('Jimmy', 'Jackson')",
+      "INSERT VALUES ('Jimmy', 'Jackson') INTO Persons"
+    ],
+    "correct": "INSERT INTO Persons VALUES ('Jimmy', 'Jackson')",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 432,
+    "topic": "sql",
+    "question": "With SQL, how can you insert \"Olsen\" as the \"LastName\" in the \"Persons\" table?",
+    "options": [
+      "INSERT INTO Persons ('Olsen') INTO LastName",
+      "INSERT INTO Persons (LastName) VALUES ('Olsen')",
+      "INSERT ('Olsen') INTO Persons (LastName)"
+    ],
+    "correct": "INSERT INTO Persons (LastName) VALUES ('Olsen')",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 433,
+    "topic": "sql",
+    "question": "How can you change \"Hansen\" into \"Nilsen\" in the \"LastName\" column in the Persons table?",
+    "options": [
+      "MODIFY Persons SET LastName='Nilsen' WHERE LastName='Hansen'",
+      "UPDATE Persons SET LastName='Hansen' INTO LastName='Nilsen'",
+      "MODIFY Persons SET LastName='Hansen' INTO LastName='Nilsen",
+      "UPDATE Persons SET LastName='Nilsen' WHERE LastName='Hansen'"
+    ],
+    "correct": "UPDATE Persons SET LastName='Nilsen' WHERE LastName='Hansen'",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 434,
+    "topic": "sql",
+    "question": "With SQL, how can you delete the records where the \"FirstName\" is \"Peter\" in the Persons Table?",
+    "options": [
+      "DELETE FirstName='Peter' FROM Persons",
+      "DELETE ROW FirstName='Peter' FROM Persons",
+      "DELETE FROM Persons WHERE FirstName = 'Peter'"
+    ],
+    "correct": "DELETE FROM Persons WHERE FirstName = 'Peter'",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 435,
+    "topic": "sql",
+    "question": "With SQL, how can you return the number of records in the \"Persons\" table?",
+    "options": [
+      "SELECT NO(*) FROM Persons",
+      "SELECT LEN(*) FROM Persons",
+      "SELECT COUNT(*) FROM Persons",
+      "SELECT COLUMNS(*) FROM Persons"
+    ],
+    "correct": "SELECT COUNT(*) FROM Persons",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 436,
+    "topic": "sql",
+    "question": "What is the most common type of join?",
+    "options": [
+      "JOINED",
+      "INSIDE JOIN",
+      "INNER JOIN",
+      "JOINED TABLE"
+    ],
+    "correct": "INNER JOIN",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 437,
+    "topic": "sql",
+    "question": "Which operator is used to select values within a range?",
+    "options": [
+      "WITHIN",
+      "RANGE",
+      "BETWEEN"
+    ],
+    "correct": "BETWEEN",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 438,
+    "topic": "sql",
+    "question": "The NOT NULL constraint enforces a column to not accept NULL values.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "True",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 439,
+    "topic": "sql",
+    "question": "Which operator is used to search for a specified pattern in a column?",
+    "options": [
+      "LIKE",
+      "FROM",
+      "GET"
+    ],
+    "correct": "LIKE",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 440,
+    "topic": "sql",
+    "question": "Which SQL statement is used to create a database table called 'Customers'?",
+    "options": [
+      "CREATE DATABASE TAB Customers",
+      "CREATE TABLE Customers",
+      "CREATE DB Customers",
+      "CREATE DATABASE TABLE Customers"
+    ],
+    "correct": "CREATE TABLE Customers",
+    "explanation": null,
+    "source": "https://www.w3schools.com/sql/sql_quiz.asp"
+  },
+  {
+    "id": 441,
+    "topic": "swift",
+    "question": "What is Swift?",
+    "options": [
+      "A CSS preprocessor",
+      "A programming language by Apple",
+      "A database engine",
+      "A JavaScript library"
+    ],
+    "correct": "A programming language by Apple",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 442,
+    "topic": "swift",
+    "question": "Which keyword declares an immutable constant?",
+    "options": [
+      "static",
+      "var",
+      "let",
+      "const"
+    ],
+    "correct": "let",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 443,
+    "topic": "swift",
+    "question": "What does an optional represent in Swift?",
+    "options": [
+      "A value that can be present or nil",
+      "A compile-time constant",
+      "A reference type",
+      "A pointer to memory"
+    ],
+    "correct": "A value that can be present or nil",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 444,
+    "topic": "swift",
+    "question": "How do you safely unwrap an optional?",
+    "options": [
+      "Using if let or guard let",
+      "Using as?",
+      "You cannot unwrap optionals",
+      "Using ! to force unwrap"
+    ],
+    "correct": "Using if let or guard let",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 445,
+    "topic": "swift",
+    "question": "Which keyword declares a stored property that can change?",
+    "options": [
+      "var",
+      "let",
+      "dyn",
+      "mut"
+    ],
+    "correct": "var",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 446,
+    "topic": "swift",
+    "question": "Which types are value types in Swift?",
+    "options": [
+      "Classes only",
+      "Actors",
+      "Structs and Enums",
+      "Protocols"
+    ],
+    "correct": "Structs and Enums",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 447,
+    "topic": "swift",
+    "question": "Which keyword defines a protocol?",
+    "options": [
+      "trait",
+      "interface",
+      "protocol",
+      "abstract"
+    ],
+    "correct": "protocol",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 448,
+    "topic": "swift",
+    "question": "How do you define a function that can throw errors?",
+    "options": [
+      "func work() throws { }",
+      "func work() -> Error { }",
+      "func throws work() { }",
+      "throws func work() { }"
+    ],
+    "correct": "func work() throws { }",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 449,
+    "topic": "swift",
+    "question": "Which keyword is used to handle errors?",
+    "options": [
+      "try/catch/finally",
+      "handle",
+      "except",
+      "do/catch"
+    ],
+    "correct": "do/catch",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 450,
+    "topic": "swift",
+    "question": "What does guard let do?",
+    "options": [
+      "Force unwraps an optional",
+      "Casts a value",
+      "Early-exits if optional is nil, binding otherwise",
+      "Declares a constant"
+    ],
+    "correct": "Early-exits if optional is nil, binding otherwise",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 451,
+    "topic": "swift",
+    "question": "Classes in Swift are:",
+    "options": [
+      "Actors",
+      "Protocols",
+      "Reference types",
+      "Value types"
+    ],
+    "correct": "Reference types",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 452,
+    "topic": "swift",
+    "question": "Which access level exposes symbols only within the same module?",
+    "options": [
+      "fileprivate",
+      "internal",
+      "public",
+      "private"
+    ],
+    "correct": "internal",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 453,
+    "topic": "swift",
+    "question": "Which keyword is used in a subclass to override a superclass method?",
+    "options": [
+      "extend",
+      "virtual",
+      "open",
+      "override"
+    ],
+    "correct": "override",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 454,
+    "topic": "swift",
+    "question": "Which statement about enums is true?",
+    "options": [
+      "They cannot have methods",
+      "They can have associated values",
+      "They require raw values",
+      "They are reference types"
+    ],
+    "correct": "They can have associated values",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 455,
+    "topic": "swift",
+    "question": "What does optional chaining use?",
+    "options": [
+      "!",
+      "&",
+      ":",
+      "?"
+    ],
+    "correct": "?",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 456,
+    "topic": "swift",
+    "question": "Which is a correct closure literal?",
+    "options": [
+      "fn(a,b) => a+b",
+      "|a,b| a + b",
+      "{ (a: Int, b: Int) -> Int in a + b }",
+      "closure(a,b) { return a + b }"
+    ],
+    "correct": "{ (a: Int, b: Int) -> Int in a + b }",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 457,
+    "topic": "swift",
+    "question": "How do you mark a property that computes its value?",
+    "options": [
+      "Use @computed",
+      "Computed properties use get/set",
+      "Use virtual",
+      "Use dynamic"
+    ],
+    "correct": "Computed properties use get/set",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 458,
+    "topic": "swift",
+    "question": "Which SwiftUI property wrapper stores view state?",
+    "options": [
+      "@State",
+      "@EnvironmentObject",
+      "@ObservedObject",
+      "@Binding"
+    ],
+    "correct": "@State",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 459,
+    "topic": "swift",
+    "question": "What does @escaping indicate for a closure parameter?",
+    "options": [
+      "It runs on the main thread",
+      "It cannot capture values",
+      "It throws errors",
+      "It may outlive the function call"
+    ],
+    "correct": "It may outlive the function call",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 460,
+    "topic": "swift",
+    "question": "Which operator unwraps with a default value?",
+    "options": [
+      "??",
+      "?.",
+      "!==",
+      "??!"
+    ],
+    "correct": "??",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 461,
+    "topic": "swift",
+    "question": "How do you mark a test method in XCTest?",
+    "options": [
+      "func nameTest() { }",
+      "func testName() { }",
+      "@test func name() { }",
+      "test func name() { }"
+    ],
+    "correct": "func testName() { }",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 462,
+    "topic": "swift",
+    "question": "Which keyword marks an async function?",
+    "options": [
+      "defer",
+      "async",
+      "suspend",
+      "await"
+    ],
+    "correct": "async",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 463,
+    "topic": "swift",
+    "question": "Which statement about structs is true?",
+    "options": [
+      "They support inheritance",
+      "They are reference types",
+      "They are value types and copied on assignment",
+      "They require classes to conform to protocols"
+    ],
+    "correct": "They are value types and copied on assignment",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 464,
+    "topic": "swift",
+    "question": "What does defer do?",
+    "options": [
+      "Retries a throwing call",
+      "Schedules a block to run when scope exits",
+      "Runs a block on main queue",
+      "Cancels an async task"
+    ],
+    "correct": "Schedules a block to run when scope exits",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  },
+  {
+    "id": 465,
+    "topic": "swift",
+    "question": "Which statement about switch is correct?",
+    "options": [
+      "It must be exhaustive over the value",
+      "It requires a default even if all cases are covered",
+      "It cannot use where clauses",
+      "It supports only integers"
+    ],
+    "correct": "It must be exhaustive over the value",
+    "explanation": null,
+    "source": "https://www.w3schools.com/swift/swift_quiz.asp"
+  }
+]
