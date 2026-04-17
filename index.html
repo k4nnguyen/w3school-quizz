@@ -30,38 +30,62 @@
             </div>
           </div>
 
-          <div class="d-flex justify-content-between align-items-center border-top pt-3">
+          <div class="d-flex justify-content-between align-items-center border-top pt-3 flex-wrap gap-2">
             <div>
               <button class="btn btn-sm btn-outline-secondary" id="btn-select-all">Chọn tất cả</button>
               <button class="btn btn-sm btn-outline-secondary" id="btn-deselect-all">Bỏ chọn tất cả</button>
             </div>
-            <div>
-              <label for="question-limit" class="form-label d-inline-block me-2 mb-0">Số câu (0 = Tất cả):</label>
-              <input type="number" id="question-limit" class="form-control form-control-sm d-inline-block w-auto" value="0" min="0" style="max-width: 80px" />
+            <div class="d-flex align-items-center gap-3">
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="chk-shuffle" checked>
+                <label class="form-check-label" for="chk-shuffle">Trộn câu hỏi & đáp án</label>
+              </div>
+              <div>
+                <label for="question-limit" class="form-label d-inline-block me-2 mb-0">Số câu (0 = Tất cả):</label>
+                <input type="number" id="question-limit" class="form-control form-control-sm d-inline-block w-auto" value="0" min="0" style="max-width: 80px" />
+              </div>
             </div>
           </div>
 
           <div class="text-center mt-4">
-            <button id="btn-start-quiz" class="btn btn-primary btn-lg shadow" disabled>Bắt đầu ôn tập (Trộn câu hỏi)</button>
+            <button id="btn-start-quiz" class="btn btn-primary btn-lg shadow" disabled>Bắt đầu ôn tập</button>
           </div>
         </div>
       </div>
 
       <!-- Trắc nghiệm -->
       <div id="quiz-section" class="d-none">
-        <div class="d-flex justify-content-between align-items-center mb-4">
-          <h4 class="mb-0" id="quiz-title">Danh sách bài tập</h4>
-          <button id="btn-restart" class="btn btn-outline-secondary">Làm lại bài khác</button>
-        </div>
+        <div class="row position-relative">
+          <div class="col-lg-9 col-md-8">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+              <h4 class="mb-0" id="quiz-title">Danh sách bài tập</h4>
+              <button id="btn-restart" class="btn btn-outline-secondary">Làm lại bài khác</button>
+            </div>
 
-        <div id="questions-container">
-          <!-- Câu hỏi sẽ được render vào đây -->
-        </div>
+            <div id="questions-container">
+              <!-- Câu hỏi sẽ được render vào đây -->
+            </div>
 
-        <!-- Pagination nếu cần, hiện tại show list scrolling -->
-        <div class="text-center pb-5 d-none" id="finish-area">
-          <h5 id="score-text" class="text-success mb-3">Bạn đã hoàn thành!</h5>
-          <button id="btn-review-again" class="btn btn-primary btn-lg">Ôn tập lại từ đầu</button>
+            <!-- Pagination nếu cần, hiện tại show list scrolling -->
+            <div class="text-center pb-5 d-none" id="finish-area">
+              <h5 id="score-text" class="text-success mb-3">Bạn đã hoàn thành!</h5>
+              <button id="btn-review-again" class="btn btn-primary btn-lg">Ôn tập lại từ đầu</button>
+            </div>
+          </div>
+
+          <!-- Thanh điều hướng thanh phụ hiển thị trạng thái hoàn thành -->
+          <div class="col-lg-3 col-md-4">
+            <div class="card shadow-sm sticky-top" style="top: 20px; z-index: 1020">
+              <div class="card-header bg-white pt-3 pb-2 text-center">
+                <h6 class="mb-0 fw-bold text-primary">Tiến độ làm bài</h6>
+              </div>
+              <div class="card-body p-2" style="max-height: 70vh; overflow-y: auto">
+                <div id="question-nav-container" class="d-flex flex-wrap gap-2 justify-content-center">
+                  <!-- Các nút điều hướng ô câu hỏi -->
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

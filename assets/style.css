@@ -78,3 +78,38 @@ body {
 #finish-area {
   margin-top: 2rem;
 }
+
+/* Question Navigator Panel */
+.q-nav-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s, transform 0.1s;
+  text-decoration: none;
+}
+
+.q-nav-btn.unanswered {
+  background-color: #ffffff;
+  color: #495057;
+  border: 1px solid #ced4da;
+}
+
+.q-nav-btn.unanswered:hover {
+  background-color: #e9ecef;
+  color: #212529;
+}
+
+.q-nav-btn.answered {
+  background-color: #ffc107 !important;
+  border-color: #ffc107 !important;
+  color: #000;
+}
+
+.q-nav-btn.answered:hover {
+  filter: brightness(0.9);
+}

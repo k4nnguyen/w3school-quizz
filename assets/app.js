@@ -105,11 +105,14 @@ function startQuiz() {
   let limit = parseInt(document.getElementById("question-limit").value, 10);
   if (isNaN(limit) || limit < 0) limit = 0;
 
+  const isShuffle = document.getElementById("chk-shuffle").checked;
+
   // Lọc data theo topic
   const filtered = sourceQuizzes.filter((q) => checkedBoxes.includes(q.topic));
 
-  // Shuffle câu hỏi
-  currentQuiz = shuffleArray(filtered);
+  // Trộn câu nếu được phép, nếu ko thì giữ nguyên từ nguồn
+  currentQuiz = isShuffle ? shuffleArray(filtered) : [...filtered];
+
   if (limit > 0 && limit < currentQuiz.length) {
     currentQuiz = currentQuiz.slice(0, limit);
   }
@@ -120,21 +123,36 @@ function startQuiz() {
   document.getElementById("setup-section").classList.add("d-none");
   document.getElementById("quiz-title").innerText = `Ôn tập: ${currentQuiz.length} câu (Chủ đề: ${checkedBoxes.join(", ")})`;
 
-  renderQuestions(currentQuiz);
+  renderQuestions(currentQuiz, isShuffle);
 
   document.getElementById("quiz-section").classList.remove("d-none");
 }
 
-function renderQuestions(questions) {
+function renderQuestions(questions, isShuffle = false) {
   const container = document.getElementById("questions-container");
+  const navContainer = document.getElementById("question-nav-container");
   container.innerHTML = "";
+  navContainer.innerHTML = "";
 
   questions.forEach((q, idx) => {
-    // Shuffle mảng options
-    const shuffledOptions = shuffleArray(q.options);
+    // Render navigation button first
+    const navBtn = document.createElement("a");
+    navBtn.id = `nav-btn-${idx}`;
+    navBtn.className = "q-nav-btn unanswered";
+    navBtn.innerText = idx + 1;
+    navBtn.href = `#q-card-${idx}`;
+    navBtn.onclick = (e) => {
+      e.preventDefault();
+      document.getElementById(`q-card-${idx}`).scrollIntoView({ behavior: "smooth", block: "center" });
+    };
+    navContainer.appendChild(navBtn);
+
+    // Shuffle mảng options nếu cho phép
+    const curOptions = isShuffle ? shuffleArray(q.options) : [...q.options];
 
     // Tạo layout card câu hỏi
     const card = document.createElement("div");
+    card.id = `q-card-${idx}`;
     card.className = "card shadow-sm mb-4 border-0";
 
     let html = `
@@ -147,7 +165,7 @@ function renderQuestions(questions) {
                 <div class="options-group" id="q-options-${idx}">
         `;
 
-    shuffledOptions.forEach((opt, optIndex) => {
+    curOptions.forEach((opt, optIndex) => {
       html += `
                 <button 
                     class="btn btn-light option-btn fw-normal" 
@@ -187,6 +205,13 @@ window.handleAnswer = function (button) {
   const container = document.getElementById(`q-options-${qIndex}`);
   const qData = currentQuiz[qIndex];
   let correctStr = qData.correct;
+
+  // Cập nhật trạng thái thanh panel chứa số câu
+  const navBtn = document.getElementById(`nav-btn-${qIndex}`);
+  if (navBtn && !navBtn.classList.contains("answered")) {
+    navBtn.classList.remove("unanswered");
+    navBtn.classList.add("answered");
+  }
 
   // Vô hiệu hoá tất cả nt trong group options
   const allButtons = container.querySelectorAll(".option-btn");
