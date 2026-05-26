@@ -31,6 +31,14 @@ document.addEventListener("DOMContentLoaded", () => {
     ev.preventDefault();
     location.reload();
   });
+
+  const btnTest1 = document.getElementById("btn-start-test-1");
+  if (btnTest1) {
+    btnTest1.addEventListener("click", (ev) => {
+      ev.preventDefault();
+      startCustomTest("kiem_tra_1", "Bài kiểm tra số 1");
+    });
+  }
 });
 
 async function loadData() {
@@ -44,6 +52,14 @@ async function loadData() {
 
     // Chỉ giữ lại các câu hỏi thuộc các chủ đề được yêu cầu
     sourceQuizzes = rawQuizzes.filter((q) => q.topic && allowedTopics.includes(q.topic.toLowerCase()));
+    
+    // Enable the start test 1 button if the custom test exists
+    const hasTest1 = rawQuizzes.some((q) => q.topic === "kiem_tra_1");
+    if (hasTest1) {
+      document.getElementById("btn-start-test-1").classList.remove("d-none");
+      // Lưu lại toàn bộ dữ liệu (Bao gồm cả bài custom test) vào một biến riêng hoặc cứ để ở mảng đầy đủ
+      window.allRawQuizzes = rawQuizzes; 
+    }
 
     sourceQuizzes.forEach((q) => {
       availableTopics.add(q.topic);
@@ -126,6 +142,25 @@ function startQuiz() {
   document.getElementById("quiz-title").innerText = `Ôn tập: ${currentQuiz.length} câu (Chủ đề: ${checkedBoxes.join(", ")})`;
 
   renderQuestions(currentQuiz, isShuffle);
+
+  document.getElementById("quiz-section").classList.remove("d-none");
+}
+
+function startCustomTest(topicCode, title) {
+  if (!window.allRawQuizzes) return;
+  
+  // Lọc chỉ lấy bài custom (giữ nguyên gốc)
+  const filtered = window.allRawQuizzes.filter((q) => q.topic === topicCode);
+  
+  currentQuiz = [...filtered];
+  correctCount = 0;
+  answeredCount = 0;
+
+  document.getElementById("setup-section").classList.add("d-none");
+  document.getElementById("quiz-title").innerText = title + ` (${currentQuiz.length} câu - Order cố định gốc)`;
+
+  // Không xáo trộn vị trí của bài kiểm tra chính thức này
+  renderQuestions(currentQuiz, false);
 
   document.getElementById("quiz-section").classList.remove("d-none");
 }
