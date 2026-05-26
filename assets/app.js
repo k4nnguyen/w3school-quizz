@@ -39,12 +39,14 @@ async function loadData() {
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
-    sourceQuizzes = await response.json();
+    const rawQuizzes = await response.json();
+    const allowedTopics = ["html", "css", "js", "php", "mysql", "jquery", "bootstrap", "bootstrap4", "xml"];
+
+    // Chỉ giữ lại các câu hỏi thuộc các chủ đề được yêu cầu
+    sourceQuizzes = rawQuizzes.filter((q) => q.topic && allowedTopics.includes(q.topic.toLowerCase()));
 
     sourceQuizzes.forEach((q) => {
-      if (q.topic) {
-        availableTopics.add(q.topic);
-      }
+      availableTopics.add(q.topic);
     });
 
     renderTopicsSelection(Array.from(availableTopics).sort());
