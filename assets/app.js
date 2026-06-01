@@ -48,17 +48,17 @@ async function loadData() {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
     const rawQuizzes = await response.json();
-    const allowedTopics = ["html", "css", "js", "php", "mysql", "jquery", "bootstrap", "bootstrap4", "xml"];
+    const allowedTopics = ["html", "css", "js", "php", "mysql", "jquery", "bootstrap", "xml"];
 
     // Chỉ giữ lại các câu hỏi thuộc các chủ đề được yêu cầu
     sourceQuizzes = rawQuizzes.filter((q) => q.topic && allowedTopics.includes(q.topic.toLowerCase()));
-    
+
     // Enable the start test 1 button if the custom test exists
     const hasTest1 = rawQuizzes.some((q) => q.topic === "kiem_tra_1");
     if (hasTest1) {
       document.getElementById("btn-start-test-1").classList.remove("d-none");
       // Lưu lại toàn bộ dữ liệu (Bao gồm cả bài custom test) vào một biến riêng hoặc cứ để ở mảng đầy đủ
-      window.allRawQuizzes = rawQuizzes; 
+      window.allRawQuizzes = rawQuizzes;
     }
 
     sourceQuizzes.forEach((q) => {
@@ -148,10 +148,10 @@ function startQuiz() {
 
 function startCustomTest(topicCode, title) {
   if (!window.allRawQuizzes) return;
-  
+
   // Lọc chỉ lấy bài custom (giữ nguyên gốc)
   const filtered = window.allRawQuizzes.filter((q) => q.topic === topicCode);
-  
+
   currentQuiz = [...filtered];
   correctCount = 0;
   answeredCount = 0;
