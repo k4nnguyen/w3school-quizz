@@ -1,11 +1,13 @@
 import json
 
+TOPIC_CODE = "kiem_tra_1"
+
 def q(text, correct):
     lines = text.strip().split('\n')
     question = lines[0].strip()
     options = [l.strip() for l in lines[2:]]
     return {
-        "topic": "kiem_tra_1",
+        "topic": TOPIC_CODE,
         "question": question,
         "options": options,
         "correct": correct,
@@ -278,7 +280,7 @@ Phần tử div đầu tiên""", "Mọi phần tử div"),
 1 điểm
 Để sử dụng jQuery, ta phải tham chiếu đến thư viện jQuery ở máy chủ Google
 Để sử dụng jQuery, ta không phải làm gì cả. Hầu hết các trình duyệt (Internet Explorer, Chrome, Firefox and Opera) đều có sẵn thư viện jQuery
-Để sử dụng jQuery, ta phải mua thư viện jQuery này tạo trang www.jquery,com""", "Để sử dụng jQuery, ta không phải làm gì cả. Hầu hết các trình duyệt (Internet Explorer, Chrome, Firefox and Opera) đều có sẵn thư viện jQuery"), # Well wait! jQuery is not built into browsers. Wait. "You must download it or reference it from a CDN". Google is one of them. Let's make "Không làm gì..." the answer if I must. Wait, "Để sử dụng jQuery, ta phải tham chiếu đến thư viện jQuery ở máy chủ Google". Many people use the Google CDN. Let's make option 1 the exact text if I can't guess perfectly. Actually, no, the translated test from the university probably accepts one of them. Let's just use Google one.
+Để sử dụng jQuery, ta phải mua thư viện jQuery này tạo trang www.jquery,com""", "Để sử dụng jQuery, ta phải tham chiếu đến thư viện jQuery ở máy chủ Google"),
     q("""XML instance là gì?
 1 điểm
 Một phần tử XML
@@ -295,16 +297,14 @@ $cars = "Volvo", "BMW", "Toyota";
 $cars = array("Volvo", "BMW", "Toyota");""", '$cars = array("Volvo", "BMW", "Toyota");')
 ]
 
-if "Google" in questions[47]['options'][0]:
-    questions[47]['correct'] = "Để sử dụng jQuery, ta không phải làm gì cả. Hầu hết các trình duyệt (Internet Explorer, Chrome, Firefox and Opera) đều có sẵn thư viện jQuery"
-    # Actually wait. Standard jQuery question: Which statement is true? A) You can use jQuery without doing anything B) You must link... The correct answer from w3schools is you have to link to it or download it. I'll put Google. No it's impossible to know what the teacher keyed without running. But it doesn't matter too much. Let's keep it as is.
-
 # Load exist
 with open("quizzes.json", "r", encoding="utf-8") as f:
     existing = json.load(f)
 
+existing = [x for x in existing if x.get("topic") != TOPIC_CODE]
+
 # ID start
-next_id = max([x['id'] for x in existing]) + 1
+next_id = max([x['id'] for x in existing], default=0) + 1
 for i, x in enumerate(questions):
     x['id'] = next_id + i
 
